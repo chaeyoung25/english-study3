@@ -1,0 +1,1000 @@
+패턴01-I_am I am a student. | 저는 학생입니다.
+패턴01-I_am I am happy. | 저는 행복합니다.
+패턴01-I_am I am tired. | 저는 피곤합니다.
+패턴01-I_am I am hungry. | 저는 배고픕니다.
+패턴01-I_am I am thirsty. | 저는 목마릅니다.
+패턴01-I_am I am busy. | 저는 바쁩니다.
+패턴01-I_am I am ready. | 저는 준비됐습니다.
+패턴01-I_am I am sorry. | 미안합니다.
+패턴01-I_am I am late. | 늦었습니다.
+패턴01-I_am I am lost. | 길을 잃었습니다.
+패턴02-It_is It is sunny. | 날씨가 화창합니다.
+패턴02-It_is It is cloudy. | 날씨가 흐립니다.
+패턴02-It_is It is cold today. | 오늘 춥네요.
+패턴02-It_is It is 10 o'clock. | 10시 정각입니다.
+패턴02-It_is It is time for lunch. | 점심시간입니다.
+패턴02-It_is It is good. | 좋습니다.
+패턴02-It_is It is important. | 중요합니다.
+패턴02-It_is It is difficult. | 어렵습니다.
+패턴02-It_is It is easy. | 쉽습니다.
+패턴02-It_is It is my turn. | 제 차례입니다.
+패턴03-I_want I want some water. | 물 좀 마시고 싶어요.
+패턴03-I_want I want some coffee. | 커피 마시고 싶어요.
+패턴03-I_want I want to go home. | 집에 가고 싶어요.
+패턴03-I_want I want to sleep. | 자고 싶어요.
+패턴03-I_want I want to learn English. | 영어를 배우고 싶어요.
+패턴03-I_want I want this one. | 이걸로 주세요.
+패턴03-I_want I want that one. | 저걸로 주세요.
+패턴03-I_want I want to see a doctor. | 진찰을 받고 싶어요.
+패턴03-I_want I want to take a break. | 좀 쉬고 싶어요.
+패턴03-I_want I want to help you. | 당신을 돕고 싶어요.
+패턴04-I_need I need help. | 도움이 필요합니다.
+패턴04-I_need I need a taxi. | 택시가 필요합니다.
+패턴04-I_need I need more time. | 시간이 더 필요합니다.
+패턴04-I_need I need your signature. | 당신의 서명이 필요합니다.
+패턴04-I_need I need to go. | 저는 가야만 해요.
+패턴04-I_need I need to study. | 저는 공부해야 해요.
+패턴04-I_need I need to charge my phone. | 핸드폰을 충전해야 해요.
+패턴04-I_need I need to buy milk. | 우유를 사야 해요.
+패턴04-I_need I need to rest. | 휴식이 필요해요.
+패턴04-I_need I need to make a reservation. | 예약을 해야 해요.
+패턴05-I_have I have a question. | 질문이 있습니다.
+패턴05-I_have I have an idea. | 좋은 생각이 있어요.
+패턴05-I_have I have a cold. | 감기에 걸렸어요.
+패턴05-I_have I have a fever. | 열이 있어요.
+패턴05-I_have I have a reservation. | 예약했습니다.
+패턴05-I_have I have time. | 시간 있습니다.
+패턴05-I_have I have no time. | 시간이 없습니다.
+패턴05-I_have I have no money. | 돈이 없습니다.
+패턴05-I_have I have two brothers. | 저는 형제가 두 명 있습니다.
+패턴05-I_have I have a meeting. | 회의가 있습니다.
+패턴06-Do_you Do you speak English? | 영어 할 줄 아세요?
+패턴06-Do_you Do you like coffee? | 커피 좋아하세요?
+패턴06-Do_you Do you understand? | 이해하셨나요?
+패턴06-Do_you Do you have time? | 시간 있으세요?
+패턴06-Do_you Do you have a pen? | 펜 있으세요?
+패턴06-Do_you Do you want some water? | 물 좀 드릴까요?
+패턴06-Do_you Do you live here? | 여기 사시나요?
+패턴06-Do_you Do you know him? | 그를 아시나요?
+패턴06-Do_you Do you need help? | 도움이 필요하세요?
+패턴06-Do_you Do you work tomorrow? | 내일 일하세요?
+패턴07-Can_I Can I help you? | 무엇을 도와드릴까요?
+패턴07-Can_I Can I have some water? | 물 좀 주시겠어요?
+패턴07-Can_I Can I have the menu? | 메뉴판 좀 주시겠어요?
+패턴07-Can_I Can I sit here? | 여기 앉아도 될까요?
+패턴07-Can_I Can I use your phone? | 전화기 좀 써도 될까요?
+패턴07-Can_I Can I pay by card? | 카드로 계산해도 될까요?
+패턴07-Can_I Can I ask a question? | 질문 하나 해도 될까요?
+패턴07-Can_I Can I try this on? | 이거 입어봐도 될까요?
+패턴07-Can_I Can I get a refund? | 환불받을 수 있을까요?
+패턴07-Can_I Can I take a picture? | 사진 찍어도 될까요?
+패턴08-Where_is Where is the restroom? | 화장실이 어디인가요?
+패턴08-Where_is Where is the subway station? | 지하철역이 어디인가요?
+패턴08-Where_is Where is the exit? | 출구가 어디인가요?
+패턴08-Where_is Where is the bank? | 은행이 어디인가요?
+패턴08-Where_is Where is the bus stop? | 버스 정류장이 어디인가요?
+패턴08-Where_is Where is my phone? | 제 핸드폰이 어디 있죠?
+패턴08-Where_is Where is my bag? | 제 가방이 어디 있죠?
+패턴08-Where_is Where are you? | 어디에 계세요?
+패턴08-Where_is Where are you from? | 어디에서 오셨나요?
+패턴08-Where_is Where do you live? | 어디에 사시나요?
+패턴09-What_How What is this? | 이것은 무엇인가요?
+패턴09-What_How What is that? | 저것은 무엇인가요?
+패턴09-What_How What is your name? | 이름이 무엇인가요?
+패턴09-What_How What is your job? | 직업이 무엇인가요?
+패턴09-What_How What time is it? | 지금 몇 시인가요?
+패턴09-What_How How are you? | 어떻게 지내세요?
+패턴09-What_How How much is it? | 이거 얼마인가요?
+패턴09-What_How How is the weather? | 날씨가 어떤가요?
+패턴09-What_How How do I get there? | 거기에 어떻게 가나요?
+패턴09-What_How How do you spell that? | 철자가 어떻게 되나요?
+패턴10-Lets I like to watch movies. | 저는 영화 보는 것을 좋아합니다.
+패턴10-Lets I like to read books. | 저는 책 읽는 것을 좋아합니다.
+패턴10-Lets I like pizza. | 저는 피자를 좋아합니다.
+패턴10-Lets I like your shoes. | 당신의 신발이 마음에 드네요.
+패턴10-Lets I don't like spiders. | 저는 거미를 싫어합니다.
+패턴10-Lets Let's go. | 갑시다.
+패턴10-Lets Let's eat lunch. | 점심 먹읍시다.
+패턴10-Lets Let's study English. | 영어 공부합시다.
+패턴10-Lets Let's meet tomorrow. | 내일 만납시다.
+패턴10-Lets Let's take a break. | 휴식 시간을 가집시다.
+패턴11-Going_to I'm going to eat breakfast. | 아침 먹을 거예요.
+패턴11-Going_to I'm going to watch TV tonight. | 오늘 밤에 TV 볼 거예요.
+패턴11-Going_to I'm going to meet my friend. | 친구를 만날 예정이에요.
+패턴11-Going_to I'm going to study hard. | 공부 열심히 할 거예요.
+패턴11-Going_to I'm going to the store. | 가게에 가는 중이에요. (혹은 갈 거예요)
+패턴11-Going_to I'm going to the library. | 도서관에 갈 거예요.
+패턴11-Going_to I'm going to call him later. | 나중에 그에게 전화할 거예요.
+패턴11-Going_to I'm going to take a shower. | 샤워할 거예요.
+패턴11-Going_to It's going to rain. | 비가 올 것 같아요.
+패턴11-Going_to It's going to be okay. | 괜찮아질 거예요.
+패턴12-Can_you Can you help me? | 저 좀 도와주실 수 있나요?
+패턴12-Can_you Can you speak slowly? | 천천히 말씀해 주시겠어요?
+패턴12-Can_you Can you repeat that? | 다시 한번 말씀해 주시겠어요?
+패턴12-Can_you Can you open the door? | 문 좀 열어주시겠어요?
+패턴12-Can_you Can you close the window? | 창문 좀 닫아주시겠어요?
+패턴12-Can_you Can you tell me the time? | 지금 몇 시인지 알려주실 수 있나요?
+패턴12-Can_you Can you recommend a good restaurant? | 좋은 식당 좀 추천해 주실래요?
+패턴12-Can_you Can you give me that? | 저것 좀 주시겠어요?
+패턴12-Can_you Can you wait for a minute? | 잠시만 기다려 주시겠어요?
+패턴12-Can_you Can you take a picture of me? | 제 사진 좀 찍어 주시겠어요?
+패턴13-Im_V-ing I'm working right now. | 지금 일하는 중입니다.
+패턴13-Im_V-ing I'm studying English. | 영어 공부하는 중입니다.
+패턴13-Im_V-ing I'm eating dinner. | 저녁 먹는 중입니다.
+패턴13-Im_V-ing I'm waiting for the bus. | 버스를 기다리는 중입니다.
+패턴13-Im_V-ing I'm cooking. | 요리하는 중입니다.
+패턴13-Im_V-ing I'm watching a movie. | 영화 보는 중입니다.
+패턴13-Im_V-ing I'm talking on the phone. | 통화 중입니다.
+패턴13-Im_V-ing I'm just looking. | 그냥 둘러보는 중이에요. (가게에서)
+패턴13-Im_V-ing I'm leaving now. | 지금 떠나는 중입니다.
+패턴13-Im_V-ing I'm feeling sick. | 몸이 안 좋은 것 같아요.
+패턴14-Have_to I have to go now. | 지금 가야만 해요.
+패턴14-Have_to I have to finish this report. | 이 보고서를 끝내야만 해요.
+패턴14-Have_to I have to work tomorrow. | 내일 일해야 해요.
+패턴14-Have_to I have to get up early. | 일찍 일어나야 해요.
+패턴14-Have_to I have to make a call. | 전화해야 해요.
+패턴14-Have_to I have to clean my room. | 방 청소를 해야 해요.
+패턴14-Have_to I have to go to the bank. | 은행에 가야 해요.
+패턴14-Have_to I have to study for the test. | 시험공부를 해야 해요.
+패턴14-Have_to I have to buy some groceries. | 식료품을 좀 사야 해요.
+패턴14-Have_to I have to wear glasses. | 저는 안경을 껴야 해요.
+패턴15-Would_like Would you like some coffee? | 커피 좀 드시겠어요?
+패턴15-Would_like Would you like some more bread? | 빵 좀 더 드시겠어요?
+패턴15-Would_like Would you like a drink? | 마실 것 좀 드릴까요?
+패턴15-Would_like Would you like a receipt? | 영수증 필요하신가요?
+패턴15-Would_like Would you like anything else? | 다른 것 더 필요하신가요?
+패턴15-Would_like Would you like to sit down? | 앉으시겠어요?
+패턴15-Would_like Would you like to join us? | 저희와 함께 하시겠어요?
+패턴15-Would_like Would you like to go for a walk? | 산책하러 가시겠어요?
+패턴15-Would_like Would you like to order? | 주문하시겠어요?
+패턴15-Would_like What would you like to do? | 무엇을 하고 싶으신가요?
+패턴16-I_think I think so. | 그런 것 같아요.
+패턴16-I_think I don't think so. | 그렇지 않은 것 같아요.
+패턴16-I_think I think it's a good idea. | 좋은 생각인 것 같아요.
+패턴16-I_think I think it's okay. | 괜찮은 것 같아요.
+패턴16-I_think I think it's too expensive. | 너무 비싼 것 같아요.
+패턴16-I_think I think you are right. | 당신 말이 맞는 것 같아요.
+패턴16-I_think I think I can do it. | 할 수 있을 것 같아요.
+패턴16-I_think I think I'm lost. | 길을 잃은 것 같아요.
+패턴16-I_think I think it will rain tomorrow. | 내일 비가 올 것 같아요.
+패턴16-I_think I think I need a break. | 휴식이 필요한 것 같아요.
+패턴17-There_is Is there a bank near here? | 이 근처에 은행이 있나요?
+패턴17-There_is Is there a restroom here? | 여기에 화장실이 있나요?
+패턴17-There_is There is a problem. | 문제가 하나 있어요.
+패턴17-There_is There is a book on the table. | 책상 위에 책이 한 권 있어요.
+TEST17-There_is There is no time. | 시간이 없어요.
+패턴17-There_is There is no choice. | 선택의 여지가 없어요.
+패턴17-There_is There are many people here. | 여기 사람들이 많네요.
+패턴17-There_is There are two apples. | 사과가 두 개 있어요.
+패턴17-There_is Are there any questions? | 질문 있으신가요?
+패턴17-There_is Are there any seats left? | 남은 좌석이 있나요?
+패턴18-How_about How about this one? | 이건 어때요?
+패턴18-How_about How about you? | 당신은 어떠세요?
+패턴18-How_about How about 7 PM? | 7시는 어때요?
+패턴18-How_about How about next week? | 다음 주는 어때요?
+패턴18-How_about How about going for a walk? | 산책하러 가는 건 어때요?
+패턴18-How_about How about eating out tonight? | 오늘 저녁 외식하는 건 어때요?
+패턴18-How_about How about watching a movie? | 영화 보는 건 어때요?
+패턴18-How_about How about taking a taxi? | 택시 타는 건 어때요?
+패턴18-How_about How about some coffee? | 커피 좀 마시는 건 어때요?
+패턴18-How_about How about this color? | 이 색깔은 어때요?
+패턴19-Do_want What do you want to do? | 무엇을 하고 싶으세요?
+패턴19-Do_want What do you want to eat? | 무엇을 먹고 싶으세요?
+패턴19-Do_want Do you want some coffee? | 커피 좀 원하세요?
+패턴19-Do_want Do you want a ride? | 태워다 드릴까요? (차 태워주길 원하세요?)
+패턴19-Do_want Do you want to go home? | 집에 가고 싶으세요?
+패턴19-Do_want Do you want to watch TV? | TV 보고 싶으세요?
+패턴19-Do_want Do you want to join me? | 저와 함께 하실래요?
+패턴19-Do_want Do you want this? | 이거 원하세요?
+패턴19-Do_want Do you want me to help you? | 제가 도와주길 원하세요?
+패턴19-Do_want Do you want to order now? | 지금 주문하시겠어요?
+패턴20-I_dont I don't know. | 모르겠습니다.
+패턴20-I_dont I don't understand. | 이해하지 못했습니다.
+패턴20-I_dont I don't like it. | 저는 그것을 좋아하지 않아요.
+패턴20-I_dont I don't have time. | 시간이 없습니다.
+패턴20-I_dont I don't have money. | 돈이 없습니다.
+패턴20-I_dont I don't feel well. | 몸이 좋지 않아요.
+패턴20-I_dont I don't remember. | 기억나지 않아요.
+패턴20-I_dont I don't eat meat. | 저는 고기를 먹지 않아요.
+패턴20-I_dont I don't live here. | 저는 여기 살지 않아요.
+패턴20-I_dont I don't agree. | 동의하지 않아요.
+패턴21-I'd_like I'd like a cup of coffee. | 커피 한 잔 주세요. (I want보다 정중)
+패턴21-I'd_like I'd like a window seat, please. | 창가 자리로 부탁합니다.
+패턴21-I'd_like I'd like to check in, please. | 체크인 하고 싶습니다.
+패턴21-I'd_like I'd like to check out. | 체크아웃 하겠습니다.
+패턴21-I'd_like I'd like to make a reservation. | 예약하고 싶습니다.
+패턴21-I'd_like I'd like to speak to Mr. Kim. | 김 선생님과 통화하고 싶습니다.
+패턴21-I'd_like I'd like to buy this. | 이것을 사고 싶습니다.
+패턴21-I'd_like I'd like to order now. | 지금 주문하고 싶습니다.
+패턴21-I'd_like I'd like to know more. | 더 알고 싶습니다.
+패턴21-I'd_like I'd like to go home now. | 이제 집에 가고 싶네요.
+패턴22-Looking_for I'm looking for the restroom. | 화장실을 찾고 있습니다.
+패턴22-Looking_for I'm looking for the subway station. | 지하철역을 찾고 있습니다.
+패턴22-Looking_for I'm looking for my wallet. | 제 지갑을 찾고 있습니다.
+패턴22-Looking_for I'm looking for my keys. | 제 열쇠를 찾고 있습니다.
+패턴22-Looking_for I'm looking for a gift. | 선물을 찾고 있습니다.
+패턴22-Looking_for I'm looking for a new job. | 새 직장을 찾고 있습니다.
+패턴22-Looking_for I'm looking for a T-shirt. | 티셔츠를 찾고 있습니다. (가게에서)
+패턴22-Looking_for I'm just looking around. | 그냥 둘러보고 있어요.
+패턴22-Looking_for What are you looking for? | 무엇을 찾고 계신가요?
+패턴22-Looking_for Who are you looking for? | 누구를 찾고 계신가요?
+패턴23-Could_you Could you help me? | (Can you보다 정중하게) 저 좀 도와주시겠어요?
+패턴23-Could_you Could you speak more slowly? | 좀 더 천천히 말씀해 주시겠어요?
+패턴23-Could_you Could you repeat that, please? | 다시 한번 말씀해 주시겠어요?
+패턴23-Could_you Could you tell me how to get there? | 그곳에 어떻게 가는지 알려주시겠어요?
+패턴23-Could_you Could you take a picture for us? | 저희 사진 좀 찍어주시겠어요?
+패턴23-Could_you Could you close the door, please? | 문 좀 닫아주시겠어요?
+패턴23-Could_you Could you lend me some money? | 돈 좀 빌려주실 수 있나요?
+패턴23-Could_you Could you recommend something? | 무언가 추천해 주시겠어요?
+패턴23-Could_you Could you hold on a moment? | 잠시만 (전화를) 끊지 말고 기다려주시겠어요?
+패턴23-Could_you Could you call me a taxi? | 택시 좀 불러주시겠어요?
+패턴24-How_long How long does it take? | (시간이) 얼마나 걸리나요?
+패턴24-How_long How long does it take to get to City Hall? | 시청까지 얼마나 걸리나요?
+패턴24-How_long How long will you stay here? | 여기 얼마나 머무실 건가요?
+패턴24-How_long How long have you been here? | 여기에 계신 지 얼마나 되셨나요?
+패턴24-How_long How long have you been waiting? | 얼마나 기다리셨나요?
+패턴24-How_long How long have you studied English? | 영어 공부한 지 얼마나 되셨나요?
+패턴24-How_long How long is the movie? | 그 영화는 (상영 시간이) 얼마나 긴가요?
+패턴24-How_long How long is the break? | 휴식 시간은 얼마나 긴가요?
+패턴24-How_long How long should I wait? | 얼마나 기다려야 하나요?
+패턴24-How_long How long will it take to fix this? | 이거 고치는 데 얼마나 걸릴까요?
+패턴25-How_often How often do you go to the movies? | 얼마나 자주 영화 보러 가세요?
+패턴25-How_often How often do you exercise? | 얼마나 자주 운동하세요?
+패턴25-How_often How often do you study English? | 얼마나 자주 영어 공부하세요?
+패턴25-How_often How often do you meet him? | 그를 얼마나 자주 만나나요?
+패턴25-How_often How often do you travel? | 얼마나 자주 여행하세요?
+패턴25-How_often How often should I take this medicine? | 이 약을 얼마나 자주 먹어야 하나요?
+패턴25-How_often How often does the bus come? | 버스는 얼마나 자주 오나요?
+패턴25-How_often How often do you clean your room? | 방 청소는 얼마나 자주 하세요?
+패턴25-How_often How often do you eat out? | 얼마나 자주 외식하세요?
+패턴25-How_often How often do you check your email? | 이메일은 얼마나 자주 확인하세요?
+패턴26-Negative_1 Don't worry. | 걱정하지 마세요.
+패턴26-Negative_1 Don't forget. | 잊지 마세요.
+패턴26-Negative_1 Don't be late. | 늦지 마세요.
+패턴26-Negative_1 Don't touch it. | 그것 만지지 마세요.
+패턴26-Negative_1 Don't give up. | 포기하지 마세요.
+패턴26-Negative_1 Don't blame me. | 저를 탓하지 마세요.
+패턴26-Negative_1 Don't tell anyone. | 아무에게도 말하지 마세요.
+패턴26-Negative_1 Let's not go today. | 오늘 가지 맙시다.
+패턴26-Negative_1 Let's not talk about it. | 그것에 대해 이야기하지 맙시다.
+패턴26-Negative_1 Let's not eat here. | 여기서 먹지 맙시다.
+패턴27-Why_dont Why don't you join us? | 우리와 함께 하는 게 어때요? (제안)
+패턴27-Why_dont Why don't you sit down? | 앉으시는 게 어때요?
+패턴27-Why_dont Why don't you take a break? | 휴식을 취하는 게 어때요?
+패턴27-Why_dont Why don't you see a doctor? | 병원에 가보는 게 어때요?
+패턴27-Why_dont Why don't you ask him? | 그에게 물어보는 게 어때요?
+패턴27-Why_dont Why don't we go for a walk? | 우리 산책하러 가는 게 어때요?
+패턴27-Why_dont Why don't we eat out tonight? | 우리 오늘 저녁 외식하는 게 어때요?
+패턴27-Why_dont Why don't we order pizza? | 우리 피자 시키는 게 어때요?
+패턴27-Why_dont Why don't we meet at 7? | 우리 7시에 만나는 게 어때요?
+패턴27-Why_dont Why don't we start? | (이제) 시작하는 게 어때요?
+패턴28-Preferences I love music. | 저는 음악을 정말 좋아합니다.
+패턴28-Preferences I love reading books. | 저는 책 읽는 것을 정말 좋아합니다.
+패턴28-Preferences I love traveling. | 저는 여행하는 것을 정말 좋아합니다.
+패턴28-Preferences I love your style. | 당신의 스타일이 정말 마음에 들어요.
+패턴28-Preferences I hate traffic. | 저는 교통 체증을 정말 싫어합니다.
+패턴28-Preferences I hate waiting. | 저는 기다리는 것을 정말 싫어합니다.
+패턴28-Preferences I hate Mondays. | 저는 월요일을 정말 싫어합니다.
+패턴28-Preferences I'd love to go. | (초대에 응하며) 정말 가고 싶어요.
+패턴28-Preferences I'd hate to be late. | 늦는 건 정말 싫어요.
+패턴28-Preferences I'd prefer coffee to tea. | 저는 차보다 커피를 더 선호합니다.
+패턴29-What_kind What kind of food do you like? | 어떤 종류의 음식을 좋아하세요?
+패턴29-What_kind What kind of movies do you like? | 어떤 종류의 영화를 좋아하세요?
+패턴29-What_kind What kind of music do you listen to? | 어떤 종류의 음악을 들으세요?
+패턴29-What_kind What kind of books do you read? | 어떤 종류의 책을 읽으세요?
+패턴29-What_kind What kind of sports do you play? | 어떤 종류의 스포츠를 하세요?
+패턴29-What_kind What kind of work do you do? | 어떤 종류의 일을 하세요?
+패턴29-What_kind What kind of car is this? | 이건 어떤 종류의 차인가요?
+패턴29-What_kind What kind of problems do you have? | 어떤 종류의 문제가 있나요?
+패턴29-What_kind What kind of toppings do you want? | (피자) 토핑은 어떤 종류로 원하세요?
+패턴29-What_kind What kind of person is he? | 그는 어떤 사람인가요?
+패턴30-May_I May I help you? | (Can I 보다 더 공손하게) 도와드릴까요?
+패턴30-May_I May I speak to Ms. Lee? | 이 선생님과 통화할 수 있을까요? (전화)
+패턴30-May_I May I come in? | 들어가도 될까요?
+패턴30-May_I May I sit here? | 여기 앉아도 될까요?
+패턴30-May_I May I ask your name? | 성함을 여쭤봐도 될까요?
+패턴30-May_I May I use your pen? | 펜 좀 사용해도 될까요?
+패턴30-May_I May I have the bill, please? | 계산서 좀 주시겠어요?
+패턴30-May_I May I have some water? | 물 좀 마실 수 있을까요?
+패턴30-May_I May I take your order? | 주문받아도 될까요? (점원이 손님에게)
+패턴30-May_I May I see your passport, please? | 여권 좀 보여주시겠어요?
+패턴31-Have_you_ever Have you ever been to America? | 미국에 가 본 적 있으세요?
+패턴31-Have_you_ever Have you ever seen this movie? | 이 영화 본 적 있으세요?
+패턴31-Have_you_ever Have you ever tried kimchi? | 김치 먹어본 적 있으세요?
+패턴31-Have_you_ever Have you ever met him? | 그를 만나본 적 있으세요?
+패턴31-Have_you_ever Have you ever heard this song? | 이 노래 들어본 적 있으세요?
+패턴31-Have_you_ever Have you ever finished it? | 그것을 끝낸 적이 있나요? (벌써 끝냈나요?)
+패턴31-Have_you_ever Have you ever been in love? | 사랑에 빠져본 적 있으세요?
+패턴31-Have_you_ever Have you ever driven a truck? | 트럭 운전해 본 적 있으세요?
+패턴31-Have_you_ever Have you ever lost your wallet? | 지갑 잃어버린 적 있으세요?
+패턴31-Have_you_ever Have you ever thought about it? | 그것에 대해 생각해 본 적 있으세요?
+패턴32-I've_never I've never been there. | 그곳에 가 본 적이 없어요.
+패턴32-I've_never I've never seen that before. | 그런 건 본 적이 없어요.
+패턴32-I've_never I've never heard that story. | 그 이야기는 들어본 적이 없어요.
+패턴32-I've_never I've never tried it. | 한 번도 시도해 본 적 없어요.
+패턴32-I've_never I've never eaten this food. | 이 음식 먹어본 적 없어요.
+패턴32-I've_never I've never met her. | 그녀를 만나본 적 없어요.
+패턴32-I've_never I've never been so happy. | 이렇게 행복해 본 적이 없어요.
+패턴32-I've_never I've never been so tired. | 이렇게 피곤해 본 적이 없어요.
+패턴32-I've_never I've never seen snow. | 눈을 본 적이 없어요.
+패턴32-I've_never I've never thought about that. | 그건 생각해 본 적 없네요.
+패턴33-You_should You should see a doctor. | 너 병원에 가봐야 해. (조언)
+패턴33-You_should You should try this. | 너 이거 한번 먹어봐. (시도해봐)
+패턴33-You_should You should exercise regularly. | 너 규칙적으로 운동해야 해.
+패턴33-You_should You should study hard. | 너 공부 열심히 해야 해.
+패턴33-You_should You should call her. | 너 그녀에게 전화해야 해.
+패턴33-You_should You should apologize. | 너 사과해야 해.
+패턴33-You_should You should wear a coat. | 너 코트 입어야 해. (추워)
+패턴33-You_should You should hurry. | 너 서둘러야 해.
+패턴33-You_should You should be quiet. | 너 조용히 해야 해.
+패턴33-You_should You should go home now. | 너 이제 집에 가야 해.
+패턴34-Its_adj_to It's nice to meet you. | 만나서 반갑습니다.
+패턴34-Its_adj_to It's nice to see you again. | 다시 만나서 반갑습니다.
+패턴34-Its_adj_to It's good to hear that. | 그 말 들으니 좋네요.
+패턴34-Its_adj_to It's hard to say. | 말하기 어렵네요.
+패턴34-Its_adj_to It's hard to believe. | 믿기 어렵네요.
+패턴34-Its_adj_to It's difficult to explain. | 설명하기 어렵네요.
+패턴34-Its_adj_to It's easy to use. | 사용하기 쉽네요.
+패턴34-Its_adj_to It's important to remember this. | 이것을 기억하는 것은 중요합니다.
+패턴34-Its_adj_to It's dangerous to go alone. | 혼자 가는 것은 위험합니다.
+패턴34-Its_adj_to It's fun to learn English. | 영어를 배우는 것은 재미있습니다.
+패턴35-Im_good_at I'm good at cooking. | 저는 요리를 잘합니다.
+패턴35-Im_good_at I'm good at sports. | 저는 스포츠를 잘합니다.
+패턴35-Im_good_at I'm good at math. | 저는 수학을 잘합니다.
+패턴35-Im_good_at I'm good at driving. | 저는 운전을 잘합니다.
+패턴35-Im_good_at I'm good at singing. | 저는 노래를 잘합니다.
+패턴35-Im_good_at I'm not good at dancing. | 저는 춤을 잘 못 춥니다.
+패턴35-Im_good_at I'm not good at directions. | 저는 길눈이 어둡습니다. (방향 감각이 안 좋아요)
+패턴35-Im_good_at What are you good at? | 무엇을 잘하세요?
+패턴35-Im_good_at She is good at playing the piano. | 그녀는 피아노를 잘 칩니다.
+패턴35-Im_good_at He is good at making friends. | 그는 친구 사귀는 것을 잘합니다.
+패턴36-Are_you_sure Are you sure? | 확실해요?
+패턴36-Are_you_sure Are you sure about that? | 그거 확실해요?
+패턴36-Are_you_sure Are you sure this is the right way? | 이 길이 맞는다고 확신하세요?
+패턴36-Are_you_sure Are you sure you're okay? | 정말 괜찮은 거 확실해요?
+패턴36-Are_you_sure Are you sure you don't need help? | 정말 도움이 필요 없다고 확신해요?
+패턴36-Are_you_sure I'm sure. | 확신합니다.
+패턴36-Are_you_sure I'm not sure. | 잘 모르겠어요. (확신이 없어요)
+패턴36-Are_you_sure I'm not sure what you mean. | 무슨 뜻인지 잘 모르겠어요.
+패턴36-Are_you_sure I'm not sure if I can go. | 갈 수 있을지 잘 모르겠어요.
+패턴36-Are_you_sure I'm not sure about the time. | 시간에 대해 확신이 없어요.
+패턴37-It_looks It looks good. | 좋아 보이네요.
+패턴37-It_looks It looks delicious. | 맛있어 보이네요.
+패턴37-It_looks It looks expensive. | 비싸 보이네요.
+패턴37-It_looks It looks difficult. | 어려워 보이네요.
+패턴37-It_looks It looks easy. | 쉬워 보이네요.
+패턴37-It_looks It looks like you're busy. | 바빠 보이시네요.
+패턴37-It_looks It looks like you're lost. | 길을 잃은 것처럼 보이시네요.
+패턴37-It_looks It looks like it's going to rain. | 비가 올 것처럼 보이네요.
+패턴37-It_looks You look tired. | 피곤해 보이시네요.
+패턴37-It_looks You look happy. | 행복해 보이시네요.
+패턴38-It_sounds It sounds good. | (듣기에) 좋네요.
+패턴38-It_sounds That sounds great. | 그거 멋지네요! (듣기에)
+패턴38-It_sounds That sounds fun. | 그거 재밌겠네요!
+패턴38-It_sounds That sounds terrible. | 그거 끔찍하게 들리네요.
+패턴38-It_sounds That sounds interesting. | 그거 흥미롭게 들리네요.
+패턴38-It_sounds That sounds like a good idea. | 좋은 생각처럼 들리네요.
+패턴38-It_sounds That sounds like a lot of work. | 일이 많은 것처럼 들리네요.
+패턴38-It_sounds That sounds perfect. | 완벽하게 들리네요.
+패턴38-It_sounds It sounds difficult. | 어렵게 들리네요.
+패턴38-It_sounds It sounds easy. | 쉽게 들리네요.
+패턴39-Comparative It's bigger than mine. | 이것은 제 것보다 더 큽니다.
+패턴39-Comparative It's smaller than I thought. | 생각했던 것보다 더 작네요.
+패턴39-Comparative It's cheaper than that one. | 저것보다 더 싸네요.
+패턴39-Comparative It's more expensive than this one. | 이것보다 더 비싸네요.
+패턴39-Comparative It's faster. | 이게 더 빠릅니다.
+패턴39-Comparative It's slower. | 이게 더 느립니다.
+패턴39-Comparative This is better. | 이것이 더 낫네요.
+패턴39-Comparative That is worse. | 저것이 더 나쁘네요.
+패턴39-Comparative You are taller than me. | 당신은 저보다 키가 더 크네요.
+패턴39-Comparative It's more beautiful. | 이것이 더 아름답네요.
+패턴40-When_is When is your birthday? | 생일이 언제인가요?
+패턴40-When_is When is the meeting? | 회의가 언제인가요?
+패턴40-When_is When is the next bus? | 다음 버스가 언제 있나요?
+패턴40-When_is When is the next train to Seoul? | 서울행 다음 기차는 언제 있나요?
+패턴40-When_is When is the check-out time? | 체크아웃 시간이 언제인가요?
+패턴40-When_is When is your flight? | 비행기가 언제인가요?
+패턴40-When_is When is a good time for you? | 언제가 편하신가요?
+패턴40-When_is When does the store open? | 가게가 언제 문을 여나요?
+패턴40-When_is When does the movie start? | 영화가 언제 시작하나요?
+패턴40-When_is When can we meet? | 우리 언제 만날 수 있을까요?
+패턴41-I_can I can speak English a little. | 영어를 조금 할 수 있어요.
+패턴41-I_can I can do it. | 저는 할 수 있어요.
+패턴41-I_can I can help you. | 제가 도와드릴 수 있어요.
+패턴41-I_can I can drive. | 저는 운전할 수 있어요.
+패턴41-I_can I can't find my keys. | 제 열쇠를 못 찾겠어요.
+패턴41-I_can I can't hear you. | (전화 등에서) 잘 안 들려요.
+패턴41-I_can I can't believe it. | 믿을 수가 없어요.
+패턴41-I_can I can't swim. | 저는 수영을 못해요.
+패턴41-I_can I can't decide. | 결정을 못하겠어요.
+패턴41-I_can I can't go today. | 오늘은 못 가요.
+패턴42-I_feel I feel good. | 기분이 좋아요.
+패턴42-I_feel I feel great. | 기분이 아주 좋아요.
+패턴42-I_feel I feel sick. | 몸이 안 좋아요. (속이 메스꺼워요)
+패턴42-I_feel I feel tired. | 피곤하게 느껴져요.
+패턴42-I_feel I feel dizzy. | 어지러워요.
+패턴42-I_feel I feel cold. | 추워요.
+패턴42-I_feel I feel nervous. | 긴장돼요.
+패턴42-I_feel I feel much better now. | 지금은 훨씬 나아졌어요.
+패턴42-I_feel I feel sorry about that. | 그것에 대해 유감입니다.
+패턴42-I_feel How do you feel? | 기분이 어떠세요?
+패턴43-Did_you Did you sleep well? | 잘 잤어요?
+패턴43-Did_you Did you eat breakfast? | 아침 먹었어요?
+패턴43-Did_you Did you eat lunch? | 점심 먹었어요?
+패턴43-Did_you Did you finish it? | 그거 끝냈어요?
+패턴43-Did_you Did you have a good weekend? | 주말 잘 보냈어요?
+패턴43-Did_you Did you hear the news? | 그 소식 들었어요?
+패턴43-Did_you Did you see that? | 저거 봤어요?
+패턴43-Did_you Did you call him? | 그에게 전화했어요?
+패턴43-Did_you Did you get my email? | 제 이메일 받았어요?
+패턴43-Did_you What did you say? | 뭐라고 말했어요?
+패턴44-I_didnt I didn't sleep well. | 잘 못 잤어요.
+패턴44-I_didnt I didn't know that. | 그건 몰랐네요.
+패턴44-I_didnt I didn't mean it. | 그런 뜻이 아니었어요. (고의가 아니었어요)
+패턴44-I_didnt I didn't say that. | 저는 그렇게 말 안 했어요.
+패턴44-I_didnt I didn't go there. | 거기 안 갔어요.
+패턴44-I_didnt I didn't see him. | 그를 못 봤어요.
+패턴44-I_didnt I didn't eat yet. | 아직 안 먹었어요.
+패턴44-I_didnt I didn't hear you. | (당신이 말한 걸) 못 들었어요.
+패턴44-I_didnt I didn't like it. | 마음에 들지 않았어요.
+패턴44-I_didnt I didn't do it. | 제가 한 거 아니에요.
+패턴45-Simple_Past I went home early yesterday. | 어제 집에 일찍 갔어요.
+패턴45-Simple_Past I went to the store. | 가게에 갔었어요.
+패턴45-Simple_Past I saw him yesterday. | 어제 그를 봤어요.
+패턴45-Simple_Past I saw that movie. | 저 영화 봤어요.
+패턴45-Simple_Past I ate pizza for lunch. | 점심으로 피자를 먹었어요.
+패턴45-Simple_Past I had a good time. | 좋은 시간을 보냈어요.
+패턴45-Simple_Past I bought this yesterday. | 이거 어제 샀어요.
+패턴45-Simple_Past I woke up late this morning. | 오늘 아침 늦게 일어났어요.
+패턴45-Simple_Past I finished my homework. | 숙제를 끝냈어요.
+패턴45-Simple_Past I forgot my wallet. | 지갑을 잊고 왔어요.
+패턴46-What_are_you What are you doing? | 뭐 하고 있어요?
+패턴46-What_are_you What are you doing now? | 지금 뭐 하고 있어요?
+패턴46-What_are_you What are you doing this weekend? | 이번 주말에 뭐 하세요? (미래)
+패턴46-What_are_you What are you doing tomorrow? | 내일 뭐 하세요? (미래)
+패턴46-What_are_you What are you thinking about? | 무슨 생각 하고 있어요?
+패턴46-What_are_you What are you looking at? | 뭘 보고 있어요?
+패턴46-What_are_you What are you waiting for? | 뭘 기다리고 있어요?
+패턴46-What_are_you What are you talking about? | 무슨 얘기 하고 있어요?
+패턴46-What_are_you What are you going to do? | (미래에) 뭐 할 거예요?
+패턴46-What_are_you What are you eating? | 뭐 먹고 있어요?
+패턴47-Why Why are you late? | 왜 늦었어요?
+패턴47-Why Why are you here? | 여기 왜 있어요?
+패턴47-Why Why are you sad? | 왜 슬퍼요?
+패턴47-Why Why are you crying? | 왜 울고 있어요?
+패턴47-Why Why did you say that? | 왜 그렇게 말했어요?
+패턴47-Why Why did you do that? | 왜 그렇게 했어요?
+패턴47-Why Why not? | 왜 안 되겠어요? (좋죠!)
+패턴47-Why Why is it so expensive? | 왜 이게 이렇게 비싸죠?
+패턴47-Why Why do you think so? | 왜 그렇게 생각하세요?
+패턴47-Why Why do you study English? | 왜 영어 공부하세요?
+패턴48-Is_this Is this your bag? | 이게 당신 가방인가요?
+패턴48-Is_this Is this your phone? | 이게 당신 핸드폰인가요?
+패턴48-Is_this Is this the right way? | 이 길이 맞나요?
+패턴48-Is_this Is this seat taken? | 이 자리 임자 있나요? (이 자리 사용 중인가요?)
+패턴48-Is_this Is this okay? | 이거 괜찮아요?
+패턴48-Is_this Is this possible? | 이게 가능한가요?
+패턴48-Is_this Is this the bus to Seoul? | 이게 서울 가는 버스인가요?
+패턴48-Is_this Is this yours? | 이거 당신 것인가요?
+패턴48-Is_this Is this what you want? | 이게 당신이 원하던 것인가요?
+패턴48-Is_this Is this a good time to talk? | 지금 통화하기 괜찮은 시간인가요?
+패턴49-Im_here_for I'm here to see Mr. Kim. | 김 선생님을 뵈러 왔습니다.
+패턴49-Im_here_for I'm here to check in. | 체크인하러 왔습니다.
+패턴49-Im_here_for I'm here for my reservation. | 예약 때문에 왔습니다.
+패턴49-Im_here_for I'm here for the meeting. | 회의 때문에 왔습니다.
+패턴49-Im_here_for I'm here to pick up my bag. | 제 가방을 찾으러 왔습니다.
+패턴49-Im_here_for I'm here to help. | 도와주러 왔습니다.
+패턴49-Im_here_for I'm here on business. | 사업차(출장으로) 왔습니다.
+패턴49-Im_here_for I'm here on vacation. | 휴가차 왔습니다.
+패턴49-Im_here_for Why are you here? | 여기엔 무슨 일로 오셨나요?
+패턴49-Im_here_for I'm here to learn. | 배우러 왔습니다.
+패턴50-How_was How was your weekend? | 주말 어땠어요?
+패턴50-How_was How was your day? | 오늘 하루 어땠어요?
+패턴50-How_was How was your trip? | 여행 어땠어요?
+패턴50-How_was How was the movie? | 영화 어땠어요?
+패턴50-How_was How was the food? | 음식 어땠어요?
+패턴50-How_was How was the test? | 시험 어땠어요?
+패턴50-How_was It was great. | 훌륭했어요. (답변)
+패턴50-How_was It was terrible. | 끔찍했어요. (답변)
+패턴50-How_was It was not bad. | 나쁘지 않았어요. (답변)
+패턴50-How_was It was fun. | 재밌었어요. (답변)
+패턴51-Im_afraid I'm afraid I can't. | 미안하지만 안 될 것 같아요. (정중한 거절)
+패턴51-Im_afraid I'm afraid I'm late. | 미안하지만 늦을 것 같아요.
+패턴51-Im_afraid I'm afraid I forgot your name. | 죄송하지만 성함을 잊어버렸습니다.
+패턴51-Im_afraid I'm afraid we are lost. | 우리 길을 잃은 것 같아요.
+패턴51-Im_afraid I'm afraid it's going to rain. | 비가 올 것 같아 걱정입니다.
+패턴51-Im_afraid I'm afraid of spiders. | 저는 거미가 무서워요.
+패턴51-Im_afraid I'm afraid of heights. | 저는 고소공포증이 있어요.
+패턴51-Im_afraid I'm afraid of the dark. | 저는 어둠이 무서워요.
+패턴51-Im_afraid I'm afraid to fly. | 비행기 타는 것이 무서워요.
+패턴51-Im_afraid I'm afraid to make a mistake. | 실수하는 것이 두려워요.
+패턴52-I_was_busy I was busy yesterday. | 어제 바빴어요.
+패턴52-I_was_busy I was busy working. | 일하느라 바빴어요.
+패턴52-I_was_busy I was busy cooking. | 요리하느라 바빴어요.
+패턴52-I_was_busy I was busy studying for the test. | 시험공부하느라 바빴어요.
+패턴52-I_was_busy I was just kidding. | 그냥 농담이었어요.
+패턴52-I_was_busy I was worried about you. | 당신이 걱정됐었어요.
+패턴52-I_was_busy I was so happy. | 정말 행복했어요.
+패턴52-I_was_busy I was very tired. | 정말 피곤했어요.
+패턴52-I_was_busy I was about to call you. | 막 당신에게 전화하려던 참이었어요.
+패턴52-I_was_busy I was going to tell you. | 당신에게 말하려고 했었어요.
+패턴53-I_used_to I used to live in Seoul. | 예전에 서울에 살았었어요.
+패턴53-I_used_to I used to play the piano. | 예전에 피아노를 치곤 했어요.
+패턴53-I_used_to I used to smoke. | 예전에 담배를 피웠었어요. (지금은 아님)
+패턴53-I_used_to I used to be shy. | 예전에는 부끄러움이 많았어요.
+패턴53-I_used_to I used to work there. | 예전에 저기서 일했었어요.
+패턴53-I_used_to I used to like her. | 예전에 그녀를 좋아했었어요.
+패턴53-I_used_to I used to go hiking every weekend. | 주말마다 등산을 가곤 했어요.
+패턴53-I_used_to We used to be close friends. | 우린 예전에 친한 친구였어요.
+패턴53-I_used_to I didn't use to like coffee. | 예전엔 커피를 좋아하지 않았어요.
+패턴53-I_used_to Did you use to live here? | 예전에 여기 사셨었어요?
+패턴54-Thank_you_for Thank you for your help. | 도와주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for coming. | 와주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for waiting. | 기다려주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for listening. | 들어주셔서 감사합니다. (발표 끝)
+패턴54-Thank_you_for Thank you for inviting me. | 초대해 주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for the gift. | 선물 감사합니다.
+패턴54-Thank_you_for Thank you for the meal. | 식사 감사합니다. (잘 먹었습니다)
+패턴54-Thank_you_for Thank you for calling. | 전화 주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for your time. | 시간 내주셔서 감사합니다.
+패턴54-Thank_you_for Thank you for everything. | 모든 것에 감사합니다.
+패턴55-Im_sorry_for I'm sorry for being late. | 늦어서 죄송합니다.
+패턴55-Im_sorry_for I'm sorry for the noise. | 시끄럽게 해서 죄송합니다.
+패턴55-Im_sorry_for I'm sorry for the mistake. | 실수해서 죄송합니다.
+패턴55-Im_sorry_for I'm sorry for the trouble. | 폐를 끼쳐 죄송합니다.
+패턴55-Im_sorry_for I'm sorry to hear that. | 그 말 들으니 유감이네요. (위로)
+패턴55-Im_sorry_for I'm sorry, I can't help you. | 죄송하지만, 도와드릴 수 없어요.
+패턴55-Im_sorry_for I'm sorry, I don't know. | 죄송하지만, 잘 모르겠어요.
+패턴55-Im_sorry_for I'm sorry, I'm busy now. | 죄송하지만, 지금 바빠요.
+패턴55-Im_sorry_for I'm sorry, I forgot. | 죄송하지만, 잊어버렸어요.
+패턴55-Im_sorry_for I'm sorry about yesterday. | 어제 일은 죄송합니다.
+패턴56-Are_you_going_to Are you going to be late? | 늦을 건가요?
+패턴56-Are_you_going_to Are you going to watch the game? | 그 경기 볼 건가요?
+패턴56-Are_you_going_to Are you going to buy it? | 그거 살 건가요?
+패턴56-Are_you_going_to Are you going to tell him? | 그에게 말할 건가요?
+패턴56-Are_you_going_to Are you going to quit your job? | 직장을 그만둘 건가요?
+패턴56-Are_you_going_to What are you going to do? | 무엇을 할 건가요?
+패턴56-Are_you_going_to When are you going to start? | 언제 시작할 건가요?
+패턴56-Are_you_going_to Where are you going to stay? | 어디에 머무를 건가요?
+패턴56-Are_you_going_to How are you going to get there? | 거기에 어떻게 갈 건가요?
+패턴56-Are_you_going_to Who are you going to meet? | 누구를 만날 건가요?
+패턴57-Do_you_mind_if Do you mind if I sit here? | 여기에 앉아도 될까요? (제가 ~해도 될까요?)
+패턴57-Do_you_mind_if Do you mind if I open the window? | 창문을 열어도 될까요?
+패턴57-Do_you_mind_if Do you mind if I use your phone? | 전화기를 사용해도 될까요?
+패턴57-Do_you_mind_if Do you mind if I join you? | 합석해도(함께해도) 될까요?
+패턴57-Do_you_mind_if Do you mind if I ask you a question? | 질문 하나 해도 될까요?
+패턴57-Do_you_mind_if Do you mind if I smoke here? | 여기서 담배 피워도 될까요?
+패턴57-Do_you_mind_if Do you mind if I leave early? | 일찍 퇴근해도(떠나도) 될까요?
+패턴57-Do_you_mind_if Do you mind if I turn off the TV? | TV를 꺼도 될까요?
+패턴57-Do_you_mind_if No, not at all. | 아뇨, 전혀요. (앉으세요) (답변)
+패턴57-Do_you_mind_if I'm sorry, but I'm waiting for someone. | 죄송하지만, 일행을 기다리고 있어요. (거절 답변)
+패턴58-Would_you_mind Would you mind opening the door? | (당신이) 문 좀 열어주시겠어요?
+패턴58-Would_you_mind Would you mind speaking slowly? | 천천히 말씀해 주시겠어요?
+패턴58-Would_you_mind Would you mind helping me? | 저 좀 도와주시겠어요?
+패턴58-Would_you_mind Would you mind waiting here? | 여기서 기다려 주시겠어요?
+패턴58-Would_you_mind Would you mind repeating that? | 다시 한번 말씀해 주시겠어요?
+패턴58-Would_you_mind Would you mind turning down the music? | 음악 소리 좀 줄여주시겠어요?
+패턴58-Would_you_mind Would you mind moving your car? | 차 좀 빼주시겠어요?
+패턴58-Would_you_mind Would you mind taking a picture of me? | 제 사진 좀 찍어주시겠어요?
+패턴58-Would_you_mind Would you mind not smoking here? | 여기서 담배를 피우지 말아주시겠어요?
+패턴58-Would_you_mind Of course not. | 물론이죠. (기꺼이 열어드릴게요) (답변)
+패턴59-I_wonder I wonder why he is late. | 그가 왜 늦는지 궁금하네요.
+패턴59-I_wonder I wonder what he wants. | 그가 무엇을 원하는지 궁금하네요.
+패턴59-I_wonder I wonder where she lives. | 그녀가 어디 사는지 궁금하네요.
+패턴59-I_wonder I wonder if it will rain tomorrow. | 내일 비가 올지 어떨지 궁금하네요.
+패턴59-I_wonder I wonder if he likes me. | 그가 날 좋아하는지 어떨지 궁금하네요.
+패턴59-I_wonder I was wondering if you could help me. | (정중) 저를 도와주실 수 있는지 궁금했어요.
+패턴59-I_wonder I was wondering if you are free tonight. | (정중) 오늘 밤 시간 있으신지 궁금했어요.
+패턴59-I_wonder I wonder who she is. | 그녀가 누구인지 궁금하네요.
+패턴59-I_wonder I wonder how much it is. | 그것이 얼마인지 궁금하네요.
+패턴59-I_wonder No wonder you are tired. | 당신이 피곤한 것도 당연하네요. (놀랍지 않네요)
+패턴60-It_takes It takes 10 minutes by bus. | 버스로 10분 걸려요.
+패턴60-It_takes It takes about an hour. | 약 1시간 정도 걸려요.
+패턴60-It_takes It takes a long time. | 오랜 시간이 걸려요.
+패턴60-It_takes It doesn't take long. | 오래 걸리지 않아요.
+패턴60-It_takes How long does it take? | 얼마나 걸리나요?
+패턴60-It_takes How long does it take to get to the airport? | 공항까지 얼마나 걸리나요?
+패턴60-It_takes It takes time to learn English. | 영어를 배우는 데는 시간이 걸려요.
+패턴60-It_takes It takes courage to do that. | 그렇게 하려면 용기가 필요해요.
+패턴60-It_takes It takes practice. | 연습이 필요해요.
+패턴60-It_takes It takes 20 minutes on foot. | 걸어서 20분 걸려요.
+패턴61-Travel_Need I need a ticket to Seoul. | 서울행 표가 필요합니다.
+패턴61-Travel_Need I need to check in. | 체크인해야 합니다.
+패턴61-Travel_Need I need to check out. | 체크아웃해야 합니다.
+패턴61-Travel_Need I need a single room. | 1인실이 필요합니다.
+패턴61-Travel_Need I need a double room. | 2인실이 필요합니다.
+패턴61-Travel_Need I need a map. | 지도가 필요합니다.
+패턴61-Travel_Need I need a taxi to the airport. | 공항 가는 택시가 필요합니다.
+패턴61-Travel_Need I need to charge my battery. | 배터리를 충전해야 합니다.
+패턴61-Travel_Need I need to exchange money. | 환전해야 합니다.
+패턴61-Travel_Need I need some help. | 도움이 필요합니다.
+패턴62-Travel_Ask Where can I find a good restaurant? | 좋은 식당을 어디서 찾을 수 있나요?
+패턴62-Travel_Ask Where can I buy tickets? | 표를 어디서 살 수 있나요?
+패턴62-Travel_Ask Where can I get a taxi? | 택시를 어디서 탈 수 있나요?
+패턴62-Travel_Ask Where can I exchange money? | 환전을 어디서 할 수 있나요?
+패턴62-Travel_Ask Where can I find the restroom? | 화장실을 어디서 찾을 수 있나요?
+패턴62-Travel_Ask How do I get to the museum? | 박물관에 어떻게 가나요?
+패턴62-Travel_Ask What time does the museum open? | 박물관은 몇 시에 여나요?
+패턴62-Travel_Ask What time does the next train leave? | 다음 기차는 몇 시에 떠나나요?
+패턴62-Travel_Ask How much is this? | 이것은 얼마인가요?
+패턴62-Travel_Ask How much is the ticket? | 표는 얼마인가요?
+패턴63-Travel_Order I'd like a cup of coffee, please. | 커피 한 잔 주세요.
+패턴63-Travel_Order I'd like this one. | 이것으로 주세요.
+패턴63-Travel_Order I'd like to make a reservation. | 예약을 하고 싶습니다.
+패턴63-Travel_Order I'd like a table for two. | 2명 자리로 부탁합니다.
+패턴63-Travel_Order I'd like the check, please. | 계산서 주세요. (미국)
+패턴63-Travel_Order I'd like the bill, please. | 계산서 주세요. (영국)
+패턴63-Travel_Order I'd like a wake-up call at 7. | 7시에 모닝콜 부탁합니다.
+패턴63-Travel_Order I'd like a window seat. | 창가 자리로 주세요.
+패턴63-Travel_Order I'd like an aisle seat. | 복도 쪽 자리로 주세요.
+패턴63-Travel_Order I'd like to check in for flight KE001. | KE001편 체크인하고 싶습니다.
+패턴64-Travel_Have Do you have a map? | 지도 있으신가요?
+패턴64-Travel_Have Do you have a menu in English? | 영어 메뉴판 있으신가요?
+패턴64-Travel_Have Do you have Wi-Fi here? | 여기 와이파이 되나요?
+패턴64-Travel_Have What's the Wi-Fi password? | 와이파이 비밀번호가 뭔가요?
+패턴64-Travel_Have Do you have any recommendations? | 추천해 주실 만한 것이 있나요?
+패턴64-Travel_Have Do you have this in a different color? | 이거 다른 색상도 있나요?
+패턴64-Travel_Have Do you have this in a smaller size? | 이거 더 작은 사이즈 있나요?
+패턴64-Travel_Have Do you have any rooms available? | (호텔) 빈 방 있나요?
+패턴64-Travel_Have Do you accept credit cards? | 신용카드 받으시나요?
+패턴64-Travel_Have Do you have anything to declare? | (세관) 신고할 물건 있으신가요?
+패턴65-Travel_Info This bus goes to City Hall. | 이 버스는 시청으로 갑니다.
+패턴65-Travel_Info This is my first visit. | 이번이 첫 번째 방문입니다.
+패턴65-Travel_Info This is my passport. | 여기 제 여권입니다.
+패턴65-Travel_Info I'm here on business. | 사업차 왔습니다.
+패턴65-Travel_Info I'm here on vacation. | 휴가차 왔습니다.
+패턴65-Travel_Info I'll be staying for 3 days. | 3일 동안 머무를 예정입니다.
+패턴65-Travel_Info I'm staying at the Hilton Hotel. | 힐튼 호텔에서 묵고 있습니다.
+패턴65-Travel_Info I'm just browsing. | 그냥 둘러보는 중입니다.
+패턴65-Travel_Info I'm lost. | 길을 잃었습니다.
+패턴65-Travel_Info I'm looking for this address. | 이 주소를 찾고 있습니다.
+패턴66-Im_trying_to I'm trying to find the station. | 역을 찾으려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to learn English. | 영어를 배우려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to call my friend. | 친구에게 전화하려고 시도 중입니다.
+패턴66-Im_trying_to I'm trying to fix this. | 이것을 고치려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to concentrate. | 집중하려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to eat healthy. | 건강하게 먹으려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to quit smoking. | 담배를 끊으려고 노력 중입니다.
+패턴66-Im_trying_to I'm trying to understand. | 이해하려고 노력 중입니다.
+패턴66-Im_trying_to What are you trying to say? | 무슨 말을 하려는 건가요?
+패턴66-Im_trying_to He is trying to help. | 그는 도우려고 애쓰는 중입니다.
+패턴67-Im_planning_to I'm planning to go to Busan. | 부산에 갈 계획입니다.
+패턴67-Im_planning_to I'm planning to travel next month. | 다음 달에 여행 갈 계획입니다.
+패턴67-Im_planning_to I'm planning to buy a new car. | 새 차를 살 계획입니다.
+패턴67-Im_planning_to I'm planning to meet him tomorrow. | 내일 그를 만날 계획입니다.
+패턴67-Im_planning_to I'm planning to move out. | 이사 나갈 계획입니다.
+패턴67-Im_planning_to I'm planning to start a new business. | 새 사업을 시작할 계획입니다.
+패턴67-Im_planning_to What are you planning to do? | 무엇을 할 계획인가요?
+패턴67-Im_planning_to We are planning to get married. | 우리는 결혼할 계획입니다.
+패턴67-Im_planning_to I'm planning to study abroad. | 유학 갈 계획입니다.
+패턴67-Im_planning_to I'm not planning to go. | 갈 계획이 없습니다.
+패턴68-Im_worried_about I'm worried about the test. | 그 시험이 걱정됩니다.
+패턴68-Im_worried_about I'm worried about you. | 당신이 걱정됩니다.
+패턴68-Im_worried_about I'm worried about my health. | 제 건강이 걱정됩니다.
+패턴68-Im_worried_about I'm worried about my family. | 제 가족이 걱정됩니다.
+패턴68-Im_worried_about I'm worried about the future. | 미래가 걱정됩니다.
+패턴68-Im_worried_about I'm worried about him. | 그가 걱정됩니다.
+패턴68-Im_worried_about I'm worried about the weather. | 날씨가 걱정됩니다.
+패턴68-Im_worried_about I'm worried about the deadline. | 마감일이 걱정됩니다.
+패턴68-Im_worried_about I'm worried that I'll be late. | 늦을까 봐 걱정됩니다.
+패턴68-Im_worried_about Don't worry about me. | 저에 대해 걱정하지 마세요.
+패턴69-Im_excited_about I'm excited about the trip. | 그 여행 때문에 신이 납니다.
+패턴69-Im_excited_about I'm excited about the concert. | 그 콘서트 때문에 신이 납니다.
+패턴69-Im_excited_about I'm excited about the game. | 그 경기 때문에 신이 납니다.
+패턴69-Im_excited_about I'm excited about meeting her. | 그녀를 만날 생각에 신이 납니다.
+패턴69-Im_excited_about I'm so excited! | 정말 신나요!
+패턴69-Im_excited_about I'm excited to see you. | 당신을 만나게 되어 신이 납니다.
+패턴69-Im_excited_about I'm excited to start my new job. | 새 일을 시작하게 되어 신이 납니다.
+패턴69-Im_excited_about I'm excited for you. | 당신 일처럼 신나네요. (당신이 잘 돼서 기뻐요)
+패턴69-Im_excited_about Are you excited? | 신나시나요?
+패턴69-Im_excited_about The kids are excited about Christmas. | 아이들은 크리스마스 때문에 신이 났습니다.
+패턴70-I_guess I guess you're right. | 제 생각에 당신이 맞는 것 같아요. (추측)
+패턴70-I_guess I guess so. | 그런 것 같아요. (추측)
+패턴70-I_guess I guess he is busy. | 그가 바쁜 것 같아요.
+패턴70-I_guess I guess it's okay. | 괜찮은 것 같아요.
+패턴70-I_guess I guess I'll stay home. | 그냥 집에 있어야겠어요. (계획)
+패턴70-I_guess I guess I'll have coffee. | 커피 마셔야겠어요.
+패턴70-I_guess I guess I'm just tired. | 그냥 피곤한가 봐요.
+패턴70-I_guess I guess I was wrong. | 제가 틀렸던 것 같아요.
+패턴70-I_guess I guess it depends. | 상황에 따라 다른 것 같아요.
+패턴70-I_guess I guess I'll go now. | 이제 가봐야겠어요.
+패턴71-I_agree I agree with you. | 당신의 의견에 동의합니다.
+패턴71-I_agree I agree that it's difficult. | 그것이 어렵다는 점에 동의합니다.
+패턴71-I_agree I totally agree. | 전적으로 동의합니다.
+패턴71-I_agree I don't agree with you. | 당신의 의견에 동의하지 않습니다.
+패턴71-I_agree I don't agree with this plan. | 이 계획에 동의하지 않습니다.
+패턴71-I_agree I can't agree more. | 전적으로 동의합니다. (더 이상 동의할 수 없을 만큼)
+패턴71-I_agree I'm afraid I don't agree. | 유감이지만 동의하지 않습니다.
+패턴71-I_agree Do you agree? | 동의하시나요?
+패턴71-I_agree We all agree. | 우리 모두 동의합니다.
+패턴71-I_agree I agree in part. | 부분적으로는 동의합니다.
+패턴72-In_my_opinion In my opinion, this is the best. | 제 생각에는, 이것이 최고입니다.
+패턴72-In_my_opinion In my opinion, we should wait. | 제 생각에는, 우리가 기다려야 합니다.
+패턴72-In_my_opinion In my opinion, he is right. | 제 생각에는, 그가 옳습니다.
+패턴72-In_my_opinion In my opinion, it's too expensive. | 제 생각에는, 그것은 너무 비쌉니다.
+패턴72-In_my_opinion In my opinion, she is the best candidate. | 제 생각에는, 그녀가 최고의 후보자입니다.
+패턴72-In_my_opinion What's your opinion? | 당신의 의견은 무엇인가요?
+패턴72-In_my_opinion I have a different opinion. | 저는 다른 의견을 가지고 있습니다.
+패턴72-In_my_opinion I respect your opinion. | 당신의 의견을 존중합니다.
+패턴72-In_my_opinion That's just my opinion. | 그건 그냥 제 의견일 뿐입니다.
+패턴72-In_my_opinion I'm of the same opinion. | 저도 같은 생각입니다.
+패턴73-It_seems It seems difficult. | 어려워 보입니다.
+패턴73-It_seems It seems impossible. | 불가능해 보입니다.
+패턴73-It_seems It seems like a good idea. | 좋은 생각인 것 같습니다.
+패턴73-It_seems It seems that he is sick. | 그는 아픈 것 같습니다.
+패턴73-It_seems It seems that we are lost. | 우리는 길을 잃은 것 같습니다.
+패턴73-It_seems It seems that you are busy. | 당신은 바쁜 것 같습니다.
+패턴73-It_seems He seems nice. | 그는 좋은 사람인 것 같습니다.
+패턴73-He_seems She seems tired. | 그녀는 피곤해 보입니다.
+패턴73-It_seems You seem happy. | 당신은 행복해 보입니다.
+패턴73-It_seems Something seems wrong. | 무언가 잘못된 것 같습니다.
+패턴74-Good_luck Good luck on your test! | 시험 잘 보세요!
+패턴74-Good_luck Good luck with your presentation! | 발표 잘 하세요!
+패턴74-Good_luck Good luck with your new job! | 새 직장에서 행운을 빕니다!
+패턴74-Good_luck Good luck to you. | 당신에게 행운을 빕니다.
+패턴74-Good_luck Congratulations on your promotion! | 승진을 축하합니다!
+패턴74-Good_luck Congratulations on your graduation! | 졸업을 축하합니다!
+패턴74-Congratulations Congratulations on your wedding! | 결혼을 축하합니다!
+패턴74-Good_luck Congratulations on the new baby! | 아기 출산을 축하합니다!
+패턴74-Good_luck I'm so happy for you. | 당신 일처럼 기쁘네요.
+패턴74-Good_luck All the best. | 모든 일이 잘되길 빕니다.
+패턴75-I_remember I remember his name. | 그의 이름이 기억납니다.
+패턴75-I_remember I remember meeting you. | 당신을 만났던 것을 기억합니다.
+패턴75-I_remember I remember that day. | 그날을 기억합니다.
+패턴75-I_remember I don't remember her face. | 그녀의 얼굴이 기억나지 않습니다.
+패턴75-I_remember I don't remember where I put it. | 그것을 어디에 뒀는지 기억나지 않습니다.
+패턴75-I_remember I can't remember the password. | 비밀번호가 기억나지 않습니다.
+패턴75-I_remember Do you remember me? | 저를 기억하시나요?
+패턴75-I_remember Remember to call me. | (미래) 저에게 전화하는 것을 기억하세요.
+패턴75-I_remember Remember to lock the door. | (미래) 문 잠그는 것을 기억하세요.
+패턴75-I_remember I'll always remember you. | 항상 당신을 기억할 겁니다.
+패턴76-I_forgot I forgot my password. | 비밀번호를 잊어버렸습니다.
+패턴76-I_forgot I forgot his name. | 그의 이름을 잊어버렸습니다.
+패턴76-I_forgot I forgot my wallet. | 지갑을 잊어버리고 안 가져왔습니다.
+패턴76-I_forgot I forgot where I parked. | 어디에 주차했는지 잊어버렸습니다.
+패턴76-I_forgot I forgot to call him. | (미래) 그에게 전화하는 것을 잊었습니다.
+패턴76-I_forgot I forgot to bring it. | (미래) 그것을 가져오는 것을 잊었습니다.
+패턴76-I_forgot I forgot to lock the door. | (미래) 문 잠그는 것을 잊었습니다.
+패턴76-I_forgot Don't forget to call me. | (미래) 저에게 전화하는 것을 잊지 마세요.
+패턴76-I_forgot Don't forget your umbrella. | (미래) 우산 챙기는 것 잊지 마세요.
+패턴76-I_forgot I almost forgot. | 하마터면 잊을 뻔했네요.
+패턴77-If_I_were_you If I were you, I would go. | 만약 내가 너라면, 가겠어. (조언)
+패턴77-If_I_were_you If I were you, I would tell him. | 내가 너라면, 그에게 말하겠어.
+패턴77-If_I_were_you If I were you, I would apologize. | 내가 너라면, 사과하겠어.
+패턴77-If_I_were_you If I were you, I would buy it. | 내가 너라면, 그것을 사겠어.
+패턴77-If_I_were_you If I were you, I would study harder. | 내가 너라면, 공부를 더 열심히 하겠어.
+패턴77-If_I_were_you If I were you, I wouldn't do that. | 내가 너라면, 그렇게 하지 않겠어.
+패턴77-If_I_were_you If I were you, I wouldn't worry. | 내가 너라면, 걱정하지 않겠어.
+패턴77-If_I_were_you If I were rich, I would travel the world. | 만약 내가 부자라면, 세계 여행을 할 텐데.
+패턴77-If_I_were_you What would you do if you were me? | 당신이 만약 저라면, 어떻게 하시겠어요?
+패턴77-If_I_were_you If I had time, I would help you. | 시간이 있다면, 당신을 도울 텐데.
+패턴78-Youd_better You'd better hurry. | 서두르는 게 좋겠어. (강한 조언)
+패턴78-Youd_better You'd better go now. | 지금 가는 게 좋겠어.
+패턴78-Youd_better You'd better not be late. | 늦지 않는 게 좋겠어.
+패턴78-Youd_better You'd better not tell him. | 그에게 말하지 않는 게 좋겠어.
+패턴78-Youd_better You'd better see a doctor. | 병원에 가보는 게 좋겠어.
+패턴78-Youd_better You'd better be careful. | 조심하는 게 좋겠어.
+패턴78-Youd_better You'd better call the police. | 경찰에 전화하는 게 좋겠어.
+패턴78-Youd_better You'd better apologize. | 사과하는 게 좋겠어.
+패턴78-Youd_better You'd better take a rest. | 휴식을 취하는 게 좋겠어.
+패턴78-Youd_better We'd better leave now. | 우리 지금 떠나는 게 좋겠어요.
+패턴79-I_want_you_to I want you to help me. | 나는 당신이 나를 도와주기를 원합니다.
+패턴79-I_want_you_to I want you to be happy. | 나는 당신이 행복하기를 원합니다.
+패턴79-I_want_you_to I want you to come with me. | 나는 당신이 나와 함께 가기를 원합니다.
+패턴79-I_want_you_to I want you to listen carefully. | 나는 당신이 주의 깊게 듣기를 원합니다.
+패턴79-I_want_you_to I want you to finish this by tomorrow. | 나는 당신이 이것을 내일까지 끝내기를 원합니다.
+패턴79-I_want_you_to I want you to be honest. | 나는 당신이 정직하기를 원합니다.
+패턴79-I_want_you_to I don't want you to go. | 나는 당신이 가지 않기를 원합니다.
+패턴79-I_dont_want_you I don't want you to worry. | 나는 당신이 걱정하지 않기를 원합니다.
+패턴79-I_dont_want_you I don't want you to be late. | 나는 당신이 늦지 않기를 원합니다.
+패턴79-I_dont_want_you What do you want me to do? | (당신은) 제가 무엇을 하기를 원하시나요?
+패턴80-I_need_you_to I need you to help me. | (당신이) 저를 도와줄 필요가 있어요.
+패턴80-I_need_you_to I need you to listen. | (당신이) 들어줄 필요가 있어요.
+패턴80-I_need_you_to I need you to be quiet. | (당신이) 조용히 해줄 필요가 있어요.
+패턴80-I_need_you_to I need you to sign here. | (당신이) 여기에 서명해 줄 필요가 있어요.
+패턴80-I_need_you_to I need you to call me back. | (당신이) 저에게 다시 전화해 줄 필요가 있어요.
+패턴80-I_need_you_to I need you to pick me up at the airport. | (당신이) 저를 공항에 데리러 와 줄 필요가 있어요.
+패턴80-I_need_you_to I need you to finish this. | (당신이) 이것을 끝내줄 필요가 있어요.
+패턴80-I_need_you_to I need you to be strong. | (당신이) 강해질 필요가 있어요.
+패턴80-I_need_you_to I need you to be on time. | (당신이) 시간을 지켜줄 필요가 있어요.
+패턴80-I_need_you_to What do you need me to do? | (당신은) 제가 무엇을 해줄 필요가 있나요?
+패턴81-Whats_wrong What's wrong? | 무슨 일이에요?
+패턴81-Whats_wrong What's wrong with you? | (걱정/짜증) 무슨 일이에요?
+패턴81-Whats_wrong What's wrong with the computer? | 컴퓨터가 뭐가 잘못된 거죠?
+패턴81-Whats_wrong What's wrong with this? | 이게 뭐가 잘못됐죠?
+패턴81-Whats_wrong What's the matter? | 무슨 일이에요?
+패턴81-Whats_the_matter What's the matter with him? | 그에게 무슨 일 있나요?
+패턴81-Whats_wrong Something is wrong with my car. | 제 차에 무언가 문제가 생겼어요.
+패턴81-Whats_wrong Is there anything wrong? | 뭔가 잘못된 거라도 있나요?
+패턴81-Whats_wrong I don't know what's wrong. | 뭐가 잘못됐는지 모르겠어요.
+패턴81-Whats_wrong Tell me what's wrong. | 뭐가 잘못됐는지 말해주세요.
+패턴82-I_recommend I recommend this restaurant. | 이 식당을 추천합니다.
+패턴82-I_recommend I recommend this book. | 이 책을 추천합니다.
+패턴82-I_recommend I recommend that you see a doctor. | 병원에 가보시는 것을 추천합니다.
+패턴82-I_recommend I recommend that you try this. | 이것을 시도해 보시길 추천합니다.
+패턴82-I_recommend What do you recommend? | 무엇을 추천하시겠어요?
+패턴82-I_recommend Can you recommend a good hotel? | 좋은 호텔을 추천해 주시겠어요?
+패턴82-I_recommend I strongly recommend it. | 강력하게 추천합니다.
+패턴82-I_recommend I wouldn't recommend it. | 그것을 추천하지 않겠습니다.
+패턴82-I_recommend I highly recommend this movie. | 이 영화를 강력하게 추천합니다.
+패턴82-I_recommend I suggest we start early. | 우리가 일찍 시작할 것을 제안합니다.
+패턴83-I'm_calling_to I'm calling to make a reservation. | 예약을 하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to ask about your order. | 주문에 대해 문의하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to speak to Mr. Park. | 박 선생님과 통화하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to confirm my flight. | 제 비행 편을 확인하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to change my appointment. | 제 예약을 변경하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to cancel my order. | 제 주문을 취소하려고 전화했습니다.
+패턴83-I'm_calling_to I'm calling to say thank you. | 감사 인사를 하려고 전화했습니다.
+패턴83-I_am_calling_to I'm calling to apologize. | 사과하려고 전화했습니다.
+패턴83-I_am_calling_to I'm calling about the advertisement. | 광고 때문에 전화했습니다.
+패턴83-I_am_calling_to Why are you calling? | 무슨 일로 전화하셨나요?
+패턴84-What_if What if I fail? | 내가 실패하면 어떡하지?
+패턴84-What_if What if I'm late? | 내가 늦으면 어떡하지?
+패턴84-What_if What if it rains? | 비가 오면 어떡하지?
+패턴84-What_if What if he says no? | 그가 거절하면 어떡하지?
+패턴84-What_if What if he doesn't come? | 그가 오지 않으면 어떡하지?
+패턴84-What_if What if I lose my passport? | 여권을 잃어버리면 어떡하지?
+패턴84-What_if What if I miss the flight? | 비행기를 놓치면 어떡하지?
+패턴84-What_if What if something goes wrong? | 무언가 잘못되면 어떡하지?
+패턴84-What_if What if I don't understand? | 내가 이해하지 못하면 어떡하지?
+패턴84-What_if What if we get lost? | 우리가 길을 잃으면 어떡하지?
+패턴85-I_can't_wait I can't wait for Christmas. | 크리스마스가 정말 기다려져요.
+패턴85-I_can't_wait I can't wait for my vacation. | 휴가가 정말 기다려져요.
+패턴85-I_can't_wait I can't wait to see you. | 당신을 만나는 게 정말 기다려져요.
+패턴85-I_can't_wait I can't wait to go home. | 집에 가는 게 정말 기다려져요.
+패턴85-I_can't_wait I can't wait to try it. | 그것을 시도해 보는 게 정말 기다려져요.
+패턴85-I_can't_wait I can't wait for the movie to start. | 영화가 시작하는 게 정말 기다려져요.
+패턴85-I_can't_wait I'm looking forward to it. | 그것을 고대하고 있습니다. (비슷한 표현)
+패턴85-I_can't_wait I'm looking forward to meeting you. | 당신을 만나기를 고대하고 있습니다.
+패턴85-I_can't_wait I'm looking forward to the weekend. | 주말을 고대하고 있습니다.
+패턴85-I_can't_wait I can't wait for this to be over. | 이 일이 끝나기를 간절히 바라고 있어요.
+패턴86-Sequencing First, open the box. | 첫째로, 상자를 여세요.
+패턴86-Sequencing Second, read the instructions. | 둘째로, 설명서를 읽으세요.
+패턴86-Sequencing Third, assemble the parts. | 셋째로, 부품을 조립하세요.
+패턴86-Sequencing Then, turn on the power. | 그러고 나서, 전원을 켜세요.
+패턴86-Sequencing Next, select the menu. | 다음으로, 메뉴를 선택하세요.
+패턴86-Sequencing After that, wait for 5 minutes. | 그 후에, 5분간 기다리세요.
+패턴86-Sequencing Finally, it's done. | 마지막으로, 완성입니다.
+패턴86-Sequencing First, I wake up. Then, I wash my face. | 먼저, 저는 일어납니다. 그러고 나서, 세수합니다.
+패턴86-Sequencing I went home. After that, I ate dinner. | 집에 갔습니다. 그 후에, 저녁을 먹었습니다.
+패턴86-Sequencing In the end, we decided not to go. | 결국, 우리는 가지 않기로 결정했습니다.
+패턴87-I_heard I heard that you are sick. | 당신이 아프다고 들었어요.
+패턴87-I_heard I heard that you got promoted. | 당신이 승진했다고 들었어요.
+패턴87-I_heard I heard that you're moving. | 당신이 이사 간다고 들었어요.
+패턴87-I_heard I heard you are looking for a job. | 당신이 직장을 구하고 있다고 들었어요.
+패턴87-I_heard I heard he is a good doctor. | 그가 좋은 의사라고 들었어요.
+패턴87-I_heard I heard it's a good movie. | 그것이 좋은 영화라고 들었어요.
+패턴87-I_heard Have you heard the news? | 그 소식 들었어요?
+패턴87-I_heard Have you heard about the new restaurant? | 그 새 식당에 대해 들었어요?
+패턴87-I_heard I've never heard of that. | 그런 것은 들어본 적도 없네요.
+패턴87-I_heard I heard a strange noise. | 이상한 소리를 들었어요.
+패턴88-Let_me Let me know if you need help. | 도움이 필요하면 저에게 알려주세요.
+패턴88-Let_me Let me know what you think. | 당신의 생각을 저에게 알려주세요.
+패턴88-Let_me Let me know when you're ready. | 준비되면 저에게 알려주세요.
+패턴88-Let_me Let me introduce myself. | 제 소개를 하겠습니다.
+패턴88-Let_me Let me help you. | 제가 당신을 돕게 해주세요.
+패턴88-Let_me Let me check. | 제가 확인해 보겠습니다.
+패턴88-Let_me Let me see. | (생각하며) 어디 봅시다...
+패턴88-Let_me Let me think about it. | 제가 그것에 대해 생각해 보겠습니다.
+패턴88-Let_me Let me pay for this. | 이것은 제가 내게 해주세요. (제가 살게요)
+패턴88-Let_me Let me explain. | 제가 설명하게 해주세요.
+패턴89-This_is_the_first This is the first time. | 이번이 처음입니다.
+패턴89-This_is_the_first This is the first time I've been here. | 여기 와 본 것은 이번이 처음입니다.
+패턴89-This_is_the_first This is the first time I've seen this. | 이것을 본 것은 이번이 처음입니다.
+패턴89-This_is_the_first This is the first time I've tried this. | 이것을 먹어본 것은 이번이 처음입니다.
+패턴89-This_is_the_first This is the first time I've met him. | 그를 만난 것은 이번이 처음입니다.
+패턴89-This_is_the_first This is the best movie I've ever seen. | 이것은 내가 본 영화 중 최고입니다.
+패턴89-This_is_the_best This is the best pizza I've ever had. | 이것은 내가 먹어본 피자 중 최고입니다.
+패턴89-This_is_the_worst This is the worst movie I've ever seen. | 이것은 내가 본 영화 중 최악입니다.
+패턴89-This_is_the_only This is the only way. | 이것이 유일한 방법입니다.
+패턴89-This_is_the_only This is the only one I have. | 이것이 제가 가진 유일한 것입니다.
+패턴90-I'm_sure I'm sure he will come. | 저는 그가 올 것이라고 확신합니다.
+패턴90-I'm_sure I'm sure you will succeed. | 저는 당신이 성공할 것이라고 확신합니다.
+패턴90-I_am_sure I'm sure this is the right way. | 저는 이 길이 맞다고 확신합니다.
+패턴90-I_am_sure I'm sure you can do it. | 저는 당신이 그것을 할 수 있다고 확신합니다.
+패턴90-I_am_sure I'm sure he likes you. | 저는 그가 당신을 좋아한다고 확신합니다.
+패턴90-I_am_not_sure I'm not sure what to do. | 무엇을 해야 할지 잘 모르겠습니다.
+패턴90-I_am_not_sure I'm not sure if I can go. | 갈 수 있을지 잘 모르겠습니다.
+패턴99-I_am_not_sure I'm not sure where he is. | 그가 어디에 있는지 잘 모르겠습니다.
+패턴90-I_am_not_sure I'm not sure what this is. | 이것이 무엇인지 잘 모르겠습니다.
+패턴90-I_am_not_sure Are you sure? | 확실한가요?
+패턴91-Feel_like I feel like eating pizza. | 피자가 먹고 싶네요.
+패턴91-Feel_like I feel like going for a walk. | 산책하러 가고 싶네요.
+패턴91-Feel_like I feel like watching a movie. | 영화가 보고 싶네요.
+패턴91-Feel_like I feel like sleeping. | 자고 싶네요.
+패턴91-Feel_like I feel like crying. | 울고 싶네요.
+패턴91-Feel_like I feel like I'm forgetting something. | 무언가를 잊어버리고 있는 것 같은 기분이 드네요.
+패턴91-Feel_like I feel like I've been here before. | 전에 여기에 와 본 적 있는 것 같은 기분이 드네요.
+패턴91-Feel_like I don't feel like eating. | (지금은) 먹고 싶지 않네요.
+패턴91-Feel_like I don't feel like talking right now. | 지금은 말하고 싶지 않네요.
+패턴91-Feel_like What do you feel like doing? | 무엇을 하고 싶은 기분인가요?
+패턴92-You_dont_have_to You don't have to worry. | 걱정할 필요 없어요. (Don't worry보다 부드러움)
+패턴92-You_dont_have_to You don't have to pay. | 돈 낼 필요 없어요.
+패턴92-You_dont_have_to You don't have to hurry. | 서두를 필요 없어요.
+패턴92-You_dont_have_to You don't have to come. | 올 필요 없어요.
+패턴92-You_dont_have_to You don't have to answer. | 대답할 필요 없어요.
+패턴92-You_dont_have_to You don't have to do it if you don't want to. | 하고 싶지 않으면 할 필요 없어요.
+패턴92-You_dont_have_to You don't have to apologize. | 사과할 필요 없어요.
+패턴92-You_dont_have_to You don't have to wait for me. | 저를 기다릴 필요 없어요.
+패턴92-You_dont_have_to You don't have to be perfect. | 완벽할 필요 없어요.
+패턴92-You_dont_have_to Do I have to go? | 제가 가야만 하나요?
+패턴93-May_I_ask May I ask your name? | 성함을 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask you a question? | 질문 하나 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask where you are from? | 어디서 오셨는지 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask what this is for? | 이것이 무엇을 위한 것인지 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask your phone number? | 전화번호를 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask why you are here? | 여기에 왜 계신지 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask you a favor? | 부탁 하나 드려도 될까요?
+패턴93-May_I_ask May I ask what you're doing? | 무엇을 하고 계신지 여쭤봐도 될까요?
+패턴93-May_I_ask May I ask you to move? | (자리를) 좀 옮겨달라고 부탁드려도 될까요?
+패턴93-May_I_ask May I ask who is calling? | (전화) 누구시라고 여쭤봐도 될까요?
+패턴94-I_was_surprised I was surprised to see him. | 그를 보게 되어 놀랐습니다.
+패턴94-I_was_surprised I was surprised to hear the news. | 그 소식을 듣고 놀랐습니다.
+패턴94-I_was_surprised I was surprised that he knew. | 그가 알고 있다는 사실에 놀랐습니다.
+패턴94-I_was_surprised I was surprised at the price. | 그 가격에 놀랐습니다.
+패턴94-I_was_surprised I was surprised by his reaction. | 그의 반응에 놀랐습니다.
+패턴94-I_was_surprised I was shocked. | 저는 충격받았습니다.
+패턴94-I_was_surprised It was surprising. | 그것은 놀라웠습니다.
+패턴94-I_was_surprised I'm not surprised. | 놀랍지 않네요. (그럴 줄 알았어)
+패턴94-I_was_surprised What a surprise! | 정말 놀랍네요!
+패턴94-I_was_surprised Don't be surprised. | 놀라지 마세요.
+패턴95-I'm_glad I'm glad to meet you. | 만나서 기쁩니다.
+패턴95-I'm_glad I'm glad to hear that. | 그 말을 들으니 기쁩니다.
+패턴95-I'm_glad I'm glad you like it. | 마음에 드신다니 기쁩니다.
+패턴95-I'm_glad I'm glad you came. | 와주셔서 기쁩니다.
+패턴95-I_m_glad I'm glad you're okay. | 당신이 괜찮다니 기쁩니다.
+패턴95-I_m_glad I'm glad I can help. | 도울 수 있어서 기쁩니다.
+패턴95-I_m_glad I'm glad to be here. | 여기에 있게 되어 기쁩니다.
+패턴95-I_m_glad I'm glad it's over. | 끝나서 기쁩니다.
+패턴95-I_m_glad I'm glad for you. | 당신 일처럼 기쁩니다. (축하의 의미)
+패턴95-I_m_glad I'm glad we're friends. | 우리가 친구라서 기쁩니다.
+패턴96-I_can't_help I can't help thinking about it. | 그것에 대해 생각하지 않을 수가 없네요.
+패턴96-I_can't_help I can't help worrying about him. | 그가 걱정되는 건 어쩔 수 없네요.
+패턴96-I_can't_help I can't help falling in love with you. | 당신과 사랑에 빠지지 않을 수가 없네요. (노래 가사)
+패턴96-I_can't_help I can't help it. | 어쩔 수 없어요. (그것을 도울 수 없어요)
+패턴96-I_can't_help I couldn't help it. | 어쩔 수 없었어요. (과거)
+패턴96-I_can't_help I couldn't help laughing. | 웃지 않을 수가 없었어요.
+패턴96-I_can't_help I couldn't help overhearing. | 엿들으려 한 건 아닌데 어쩌다 듣게 되었어요.
+패턴96-I_can't_help I can't help but agree. | 동의하지 않을 수가 없네요.
+패턴96-I_can't_help I can't help but wonder why. | 왜 그런지 궁금해하지 않을 수가 없네요.
+패턴96-I_can't_help I can't help but respect him. | 그를 존경하지 않을 수가 없네요.
+패턴97-I_mean What do you mean? | 무슨 의미인가요?
+패턴97-I_mean I know what you mean. | 무슨 말씀이신지 알아요.
+패턴97-I_mean I don't know what you mean. | 무슨 의미인지 모르겠어요.
+패턴97-I_mean What I mean is... | 제 말 뜻은... (다시 설명할 때)
+패턴97-I_mean I mean, it's not bad. | 제 말은, 나쁘진 않다는 거죠. (말을 다듬을 때)
+패턴97-I_mean I didn't mean to hurt you. | 당신에게 상처 줄 의도는 아니었어요.
+패턴97-I_didn't_mean I didn't mean to say that. | 그렇게 말할 의도는 아니었어요.
+패턴97-I_didn't_mean I didn't mean to be late. | 늦을 의도는 아니었어요.
+패턴97-I_didn't_mean That's not what I meant. | 그게 제 뜻이 아니었어요.
+패턴97-I_didn't_mean Did you mean 7 or 8? | 7시를 의미한 건가요, 8시를 의미한 건가요?
+패턴98-Enjoy Please enjoy your meal. | 식사 맛있게 하세요.
+패턴98-Enjoy Enjoy your trip. | 여행 즐겁게 하세요.
+패턴98-Enjoy Enjoy your vacation. | 휴가 즐겁게 보내세요.
+패턴98-Enjoy Enjoy the movie. | 영화 재미있게 보세요.
+패턴98-Enjoy Enjoy the rest of your day. | 남은 하루 즐겁게 보내세요.
+패턴98-Enjoy I enjoyed the movie. | 영화 재미있게 봤어요.
+패턴98-Enjoy I enjoyed talking with you. | 당신과 이야기하는 것이 즐거웠어요.
+패턴98-Enjoy Did you enjoy the food? | 음식 맛있게 드셨어요?
+패턴98-Enjoy Did you enjoy your weekend? | 주말 즐겁게 보내셨어요?
+패턴98-Enjoy Enjoy yourself! | 즐거운 시간 보내!
+패턴99-I_hope I hope so. | 그러길 바랍니다.
+패턴99-I_hope I hope not. | 그렇지 않기를 바랍니다.
+패턴99-I_hope I hope you feel better soon. | 곧 나아지시길 바랍니다.
+패턴99-I_hope I hope you have a good time. | 좋은 시간 보내시길 바랍니다.
+패턴99-I_hope I hope you like it. | 마음에 드시길 바랍니다.
+패턴99-I_hope I hope it doesn't rain. | 비가 오지 않기를 바랍니다.
+패턴99-I_hope I hope I can see you again. | 당신을 다시 볼 수 있기를 바랍니다.
+패턴99-I_hope I hope I pass the test. | 시험에 통과하기를 바랍니다.
+패턴99-I_hope I hope everything goes well. | 모든 일이 잘되기를 바랍니다.
+패턴99-I_hope I hope this helps. | 이것이 도움이 되기를 바랍니다.
+패턴100-I_wish I wish I could fly. | 날 수 있으면 좋을 텐데. (불가능한 소망)
+패턴100-I_wish I wish I were rich. | 내가 부자라면 좋을 텐데.
+패턴100-I_wish I wish I had more time. | 시간이 더 있으면 좋을 텐데.
+패턴100-I_wish I wish I knew the answer. | 답을 알면 좋을 텐데.
+패턴100-I_wish I wish I could go with you. | 당신과 함께 갈 수 있으면 좋을 텐데.
+패턴100-I_wish I wish it would stop raining. | 비가 그치면 좋을 텐데.
+패턴100-I_wish I wish I hadn't said that. | 그 말을 하지 않았더라면 좋았을 텐데. (과거 후회)
+패턴100-I_wish I wish you were here. | 당신이 여기 있으면 좋을 텐데.
+패턴100-I_wish I wish you the best. | 당신의 최선을 빕니다. (행운을 빕니다)
+패턴100-I_wish I wish you a Merry Christmas. | 즐거운 크리스마스 되시길 바랍니다.

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문장 암기 도우미 (듣기+점프)</title>
+
+    <!-- PWA 설정 -->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#007bff">
+
+    <style>
+        /* --- 1. 기본 및 다크 모드 스타일 --- */
+        :root {
+            --bg-color: #f4f4f9; --text-color: #333; --card-bg: #ffffff;
+            --border-color: #ddd; --primary-color: #007bff; --primary-text: #ffffff;
+            --danger-color: #dc3545; --secondary-color: #6c757d; --success-color: #28a745;
+             --info-color: #17a2b8; /* 듣기 버튼 색상 */
+        }
+        body.dark-mode {
+            --bg-color: #2c2c2c; --text-color: #f1f1f1; --card-bg: #444;
+            --border-color: #555; --primary-color: #58a6ff; --primary-text: #2c2c2c;
+            --danger-color: #ff7b72; --secondary-color: #aaa; --success-color: #7ee787;
+            --info-color: #56c0d8;
+        }
+
+        /* --- 2. 기본 레이아웃 --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px;
+            display: flex; justify-content: center; align-items: flex-start; min-height: 100vh; box-sizing: border-box;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .container { width: 100%; max-width: 95vw; margin: 0 auto; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .header h1 { font-size: 2em; margin: 0; }
+        .card {
+            background-color: var(--card-bg); border-radius: 8px; border: 1px solid var(--border-color);
+            padding: 25px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+             transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        /* --- 3. Google Drive 동기화 --- */
+        .sync-card { display: flex; gap: 10px; align-items: center; }
+        .sync-card input { flex-grow: 1; }
+        .sync-card button { white-space: nowrap; }
+
+        /* --- 4. 암송 영역 --- */
+        .memorizer {
+            text-align: center; min-height: 350px; display: flex; flex-direction: column;
+            justify-content: center; margin-bottom: 20px;
+        }
+        #item-topic {
+            font-size: 1.8em; font-weight: 600; margin-bottom: 20px; color: var(--secondary-color);
+        }
+        #item-english {
+            font-size: 2.2em; line-height: 1.6; margin-bottom: 10px;
+        }
+        #item-korean {
+            font-size: 1.3em; color: var(--primary-color); line-height: 1.5;
+        }
+        .tts-controls { /* 듣기 버튼 영역 */
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .navigation { /* 이전/점프/다음 버튼 영역 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px; /* 듣기 버튼 아래 간격 */
+            gap: 10px;
+        }
+        .nav-button { flex-shrink: 0; }
+        .jump-controls {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        #jump-input { width: 60px; padding: 8px; text-align: center; }
+        #item-counter {
+            font-size: 0.9em; color: var(--secondary-color); margin-top: 10px; text-align: center;
+        }
+
+        /* --- 5. 로컬 추가 폼 --- */
+        .add-form, .bulk-add-form {
+            display: none; flex-direction: column; gap: 15px; margin-top: 20px;
+        }
+        .add-form.active, .bulk-add-form.active { display: flex; }
+        .form-group { display: flex; flex-direction: column; gap: 10px; }
+        .form-group input, .form-group textarea { width: 100%; }
+        .form-actions { display: flex; gap: 10px; justify-content: flex-end; }
+        .bulk-add-form textarea { min-height: 200px; resize: vertical; }
+        .bulk-add-form .instructions { font-size: 0.9em; color: var(--secondary-color); margin: -5px 0 0 0; padding: 10px; background-color: var(--bg-color); border-radius: 5px; }
+        .bulk-options { display: flex; justify-content: space-between; align-items: center; }
+
+        /* --- 6. 입력 필드 및 버튼 (공통) --- */
+        input[type="text"], input[type="number"], input[type="url"], textarea {
+            width: 100%; padding: 10px; border: 1px solid var(--border-color);
+            border-radius: 5px; background-color: var(--bg-color); color: var(--text-color); box-sizing: border-box;
+        }
+        button {
+            padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;
+            font-weight: 600; transition: background-color 0.2s, opacity 0.2s;
+        }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn { background-color: var(--bg-color); color: var(--text-color); border: 1px solid var(--border-color); }
+        .btn:hover { background-color: var(--border-color); }
+        .btn-primary { background-color: var(--primary-color); color: var(--primary-text); border: 1px solid var(--primary-color); }
+        .btn-primary:hover { opacity: 0.8; }
+        .btn-danger { background-color: var(--danger-color); color: #fff; border: 1px solid var(--danger-color); }
+        .btn-danger:hover { opacity: 0.8; }
+        .btn-success { background-color: var(--success-color); color: #fff; border: 1px solid var(--success-color); }
+        .btn-info { background-color: var(--info-color); color: #fff; border: 1px solid var(--info-color); } /* 듣기 버튼 색상 */
+        .btn-info:hover { opacity: 0.8; }
+        .add-controls { display: flex; gap: 10px; margin-bottom: 20px; }
+        .add-controls button { flex: 1; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 헤더 -->
+        <div class="header">
+            <h1>문장 암기 도우미</h1>
+            <button id="btn-dark-mode" class="btn">🌙 다크 모드</button>
+        </div>
+
+        <!-- 암송 카드 -->
+        <div class="card memorizer">
+            <div id="item-topic">로컬 데이터를 불러오는 중...</div>
+            <div id="item-english"></div>
+            <div id="item-korean"></div>
+
+            <div class="tts-controls">
+                <button id="btn-speak" class="btn-info">🔊 듣기</button>
+            </div>
+
+            <div class="navigation">
+                <button id="btn-prev" class="btn nav-button">이전</button>
+                <div class="jump-controls">
+                    <input type="number" id="jump-input" min="1" placeholder="번호">
+                    <button id="btn-jump" class="btn-primary">이동</button>
+                </div>
+                <button id="btn-next" class="btn nav-button">다음</button>
+            </div>
+            <div id="item-counter">0 / 0</div>
+        </div>
+
+        <!-- 현재 문장 삭제 버튼 -->
+        <p style="font-size: 0.9em; text-align: center; color: var(--secondary-color);">
+            (참고: 여기서 삭제해도 Google Drive 원본 파일은 변경되지 않습니다...)
+        </p>
+        <button id="btn-delete" class="btn-danger" style="width: 100%;">현재 문장 임시 삭제</button>
+
+        <!-- Google Drive 동기화 카드 -->
+        <div class="card sync-card" style="margin-top: 20px;">
+            <input type="url" id="gdrive-url-input" placeholder="Google Apps Script 웹 앱 URL을 붙여넣으세요">
+            <button id="btn-gdrive-sync" class="btn-success">🔄 불러오기</button>
+        </div>
+
+
+        <!-- 로컬 문장 추가 기능 -->
+        <hr style="margin: 20px 0; border-color: var(--border-color);">
+        <h3 style="text-align: center;">로컬에만 임시로 문장 추가하기</h3>
+        <div class="add-controls">
+            <button id="btn-toggle-add" class="btn-primary">➕ 새 문장 추가</button>
+            <button id="btn-toggle-bulk-add" class="btn-primary">🗂️ 한 번에 여러 문장 추가</button>
+        </div>
+
+        <!-- 로컬 개별 추가 폼 -->
+        <div class="card add-form" id="add-form">
+            <h3>새 문장 추가 (로컬)</h3>
+           <div class="form-group">
+               <input type="text" id="input-topic" placeholder="주제 (예: 영화, 패턴)" required>
+               <textarea id="input-english" placeholder="암기할 영어 문장을 입력하세요..." required style="min-height: 80px;"></textarea>
+               <input type="text" id="input-korean" placeholder="한글 뜻 (선택 사항)">
+           </div>
+           <div class="form-actions">
+               <button id="btn-cancel-add" class="btn">취소</button>
+               <button id="btn-save" class="btn-primary">저장하기</button>
+           </div>
+       </div>
+
+       <!-- 로컬 일괄 추가 폼 -->
+       <div class="card bulk-add-form" id="bulk-add-form">
+           <h3>한 번에 여러 문장 추가 (로컬)</h3>
+           <p class="instructions">
+               형식 1: <b>[주제] [영어 문장] | [한글 뜻]</b><br>
+               형식 2: <b>[주제] [영어 문장]</b> (한글 뜻 생략)<br>
+               예: 영화(Movie) I'll be back. | 나는 돌아올 것이다.
+           </p>
+           <textarea id="bulk-input-text" placeholder="이곳에 문장을 붙여넣으세요..."></textarea>
+           <div class="bulk-options">
+               <div>
+                   <input type="checkbox" id="check-overwrite">
+                   <label for="check-overwrite">기존 로컬 문장 덮어쓰기</label>
+               </div>
+               <div class="form-actions" style="margin: 0;">
+                   <button id="btn-bulk-cancel" class="btn">취소</button>
+                   <button id="btn-bulk-save" class="btn-primary">저장하기</button>
+               </div>
+           </div>
+       </div>
+       <!-- 로컬 폼 끝 -->
+    </div>
+
+    <!-- 스크립트 (앱 로직 + PWA 등록) -->
+    <script>
+        // --- [앱 로직 시작] ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- 1. DOM 요소 가져오기 ---
+            const itemTopicEl = document.getElementById('item-topic');
+            const itemEnglishEl = document.getElementById('item-english');
+            const itemKoreanEl = document.getElementById('item-korean');
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            const btnDelete = document.getElementById('btn-delete');
+            const btnDarkMode = document.getElementById('btn-dark-mode');
+            const gdriveUrlInput = document.getElementById('gdrive-url-input');
+            const btnGdriveSync = document.getElementById('btn-gdrive-sync');
+            const jumpInput = document.getElementById('jump-input');
+            const btnJump = document.getElementById('btn-jump');
+            const itemCounterEl = document.getElementById('item-counter');
+            const btnSpeak = document.getElementById('btn-speak'); // 듣기 버튼
+            const btnToggleAdd = document.getElementById('btn-toggle-add');
+            const btnToggleBulkAdd = document.getElementById('btn-toggle-bulk-add');
+            const addControls = document.querySelector('.add-controls');
+            const addForm = document.getElementById('add-form');
+            const btnCancelAdd = document.getElementById('btn-cancel-add');
+            const btnSave = document.getElementById('btn-save');
+            const inputTopic = document.getElementById('input-topic');
+            const inputEnglish = document.getElementById('input-english');
+            const inputKorean = document.getElementById('input-korean');
+            const bulkAddForm = document.getElementById('bulk-add-form');
+            const bulkInputText = document.getElementById('bulk-input-text');
+            const btnBulkSave = document.getElementById('btn-bulk-save');
+            const btnBulkCancel = document.getElementById('btn-bulk-cancel');
+            const checkOverwrite = document.getElementById('check-overwrite');
+
+            // --- 2. 상태 변수 ---
+            let items = [];
+            let currentItemIndex = 0;
+            let synth = window.speechSynthesis;
+            let voices = [];
+
+            // --- 3. 함수들 ---
+            function loadVoices() {
+                voices = synth.getVoices();
+                if (voices.length === 0 && synth.onvoiceschanged !== undefined) {
+                    synth.onvoiceschanged = loadVoices;
+                }
+            }
+
+            function speakSentence() {
+                if (!synth) { alert("음성 합성을 지원하지 않는 브라우저입니다."); return; }
+                if (synth.speaking) { return; } // 이미 말하는 중이면 중복 실행 방지
+
+                const textToSpeak = itemEnglishEl.textContent;
+                if (textToSpeak && items.length > 0) {
+                    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+                    utterance.onerror = (event) => { console.error("TTS Error", event); alert("음성 재생 오류."); };
+
+                    // 영어 목소리 찾기 (선호도: Google US > US > GB > Any English)
+                    let selectedVoice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google'));
+                    if (!selectedVoice) selectedVoice = voices.find(v => v.lang === 'en-US');
+                    if (!selectedVoice) selectedVoice = voices.find(v => v.lang === 'en-GB');
+                    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en-'));
+
+                    if (selectedVoice) utterance.voice = selectedVoice;
+                    else utterance.lang = 'en-US';
+
+                    utterance.rate = 1;
+                    synth.speak(utterance);
+                }
+            }
+
+            async function fetchItemsFromAppScript() {
+                // (Apps Script 호출 로직은 이전과 동일...)
+                const appScriptUrl = gdriveUrlInput.value.trim();
+                if (!appScriptUrl) { alert('Google Apps Script 웹 앱 URL을 입력해주세요.'); return; }
+                if (!appScriptUrl.startsWith("https://script.google.com/")) { alert("올바른 Google Apps Script 웹 앱 URL이 아닌 것 같습니다."); return; }
+
+                btnGdriveSync.disabled = true; btnGdriveSync.textContent = '불러오는 중...';
+                try {
+                    const response = await fetch(appScriptUrl);
+                    if (!response.ok) throw new Error(`HTTP 상태: ${response.status}`);
+                    const textData = await response.text();
+                    if (textData.startsWith("오류:")) throw new Error(textData);
+
+                    const regex = /^(\S+)\s+(.+?)(?:\s*\|\s*(.+))?$/gm;
+                    const newItems = [];
+                    const lines = textData.split('\n');
+                    let parseErrors = 0; // 파싱 오류 카운트
+                    for (const line of lines) {
+                        if (line.trim() === '') continue;
+                        regex.lastIndex = 0;
+                        const match = regex.exec(line.trim());
+                        if (match) {
+                            newItems.push({
+                                topic: match[1].trim(),
+                                english: match[2].trim(),
+                                korean: match[3] ? match[3].trim() : ""
+                            });
+                        } else {
+                             console.warn("파싱 실패:", line);
+                             parseErrors++; // 오류 카운트 증가
+                        }
+                    }
+
+                    if (newItems.length > 0 || parseErrors === 0) { // 성공적으로 파싱된 것이 있거나, 파싱 오류가 전혀 없었다면
+                        items = newItems;
+                        currentItemIndex = 0;
+                        saveItemsToLocal();
+                        localStorage.setItem('gdriveAppScriptUrl', appScriptUrl);
+                        let successMsg = `${items.length}개의 문장을 성공적으로 불러왔습니다.`;
+                        if(parseErrors > 0) successMsg += `\n(${parseErrors}개 줄은 형식 오류로 건너뛰었습니다.)`;
+                         alert(successMsg);
+                    } else { // 파싱 오류만 발생했다면
+                         alert(`Google Drive 파일에서 유효한 문장을 찾지 못했습니다. (${parseErrors}개 줄 형식 오류) 파일 내용을 확인해주세요.`);
+                    }
+                    renderCurrentItem();
+
+                } catch (error) {
+                    console.error('Apps Script 동기화 오류:', error);
+                    alert('데이터를 불러오는 중 오류가 발생했습니다.\n' + error.message);
+                } finally {
+                    btnGdriveSync.disabled = false; btnGdriveSync.textContent = '🔄 불러오기';
+                }
+            }
+
+            function loadItemsFromLocal() {
+                const storedItems = localStorage.getItem('sentences');
+                try {
+                    items = storedItems ? JSON.parse(storedItems) : [];
+                } catch (e) {
+                    console.error("로컬 데이터 파싱 오류:", e);
+                    items = []; // 파싱 오류 시 초기화
+                }
+                const storedIndex = localStorage.getItem('currentItemIndex');
+                currentItemIndex = storedIndex ? parseInt(storedIndex, 10) : 0;
+                if (!Array.isArray(items)) items = []; // 데이터가 배열이 아니면 초기화
+                if (items.length === 0 || currentItemIndex >= items.length || currentItemIndex < 0) {
+                     currentItemIndex = 0;
+                }
+            }
+            function saveItemsToLocal() {
+                localStorage.setItem('sentences', JSON.stringify(items));
+                localStorage.setItem('currentItemIndex', currentItemIndex);
+            }
+            function isItemDuplicate(english) {
+                return items.some(item => item.english.trim().toLowerCase() === english.trim().toLowerCase()); // 대소문자 무시 비교
+            }
+            function renderCurrentItem() {
+                const totalItems = items.length;
+                if (totalItems === 0) {
+                    itemTopicEl.textContent = 'Apps Script URL을 입력하고 동기화 해주세요.';
+                    itemEnglishEl.textContent = '또는 아래의 로컬 추가 버튼을 사용하세요.';
+                    itemKoreanEl.textContent = '';
+                    itemCounterEl.textContent = '0 / 0';
+                    jumpInput.max = "1"; jumpInput.value = "";
+                    btnPrev.disabled = true; btnNext.disabled = true; btnDelete.disabled = true;
+                    btnJump.disabled = true; jumpInput.disabled = true; btnSpeak.disabled = true; // 듣기 버튼 비활성화
+                    return;
+                }
+                // 인덱스 유효성 보장
+                currentItemIndex = Math.max(0, Math.min(currentItemIndex, totalItems - 1));
+
+                btnPrev.disabled = false; btnNext.disabled = false; btnDelete.disabled = false;
+                btnJump.disabled = false; jumpInput.disabled = false; btnSpeak.disabled = false; // 듣기 버튼 활성화
+
+                const item = items[currentItemIndex];
+                itemTopicEl.textContent = `(${item.topic})`;
+                itemEnglishEl.textContent = item.english;
+                itemKoreanEl.textContent = item.korean || "";
+                itemCounterEl.textContent = `${currentItemIndex + 1} / ${totalItems}`;
+                jumpInput.max = totalItems.toString();
+            }
+            function jumpToItem() {
+                const targetIndex = parseInt(jumpInput.value, 10) - 1;
+                const totalItems = items.length;
+                if (!isNaN(targetIndex) && targetIndex >= 0 && targetIndex < totalItems) {
+                    currentItemIndex = targetIndex;
+                    saveItemsToLocal();
+                    renderCurrentItem();
+                } else {
+                    alert(`1부터 ${totalItems} 사이의 번호를 입력해주세요.`);
+                    jumpInput.value = (currentItemIndex + 1).toString();
+                }
+            }
+            function showForm(formToShow) {
+                addForm.classList.remove('active'); bulkAddForm.classList.remove('active');
+                if (formToShow) {
+                    formToShow.classList.add('active'); addControls.style.display = 'none';
+                } else {
+                    addControls.style.display = 'flex';
+                }
+            }
+            function clearAddForm() { inputTopic.value = ''; inputEnglish.value = ''; inputKorean.value = ''; }
+            function clearBulkAddForm() { bulkInputText.value = ''; checkOverwrite.checked = false; }
+            function setDarkMode(isDark) {
+                if (isDark) { document.body.classList.add('dark-mode'); btnDarkMode.textContent = '☀️ 라이트 모드'; localStorage.setItem('darkMode', 'enabled'); }
+                else { document.body.classList.remove('dark-mode'); btnDarkMode.textContent = '🌙 다크 모드'; localStorage.setItem('darkMode', 'disabled'); }
+            }
+
+            // --- 6. 이벤트 리스너 ---
+            btnGdriveSync.addEventListener('click', fetchItemsFromAppScript);
+            btnNext.addEventListener('click', () => { if (items.length > 0) { currentItemIndex = (currentItemIndex + 1) % items.length; saveItemsToLocal(); renderCurrentItem(); } });
+            btnPrev.addEventListener('click', () => { if (items.length > 0) { currentItemIndex = (currentItemIndex - 1 + items.length) % items.length; saveItemsToLocal(); renderCurrentItem(); } });
+            btnDelete.addEventListener('click', () => {
+                 if (items.length === 0) return;
+                 const item = items[currentItemIndex];
+                 if (confirm(`[${item.english}]\n이 문장을 임시로 삭제하시겠습니까?`)) {
+                     items.splice(currentItemIndex, 1);
+                     currentItemIndex = Math.max(0, Math.min(currentItemIndex, items.length - 1)); // 인덱스 조정
+                     saveItemsToLocal();
+                     renderCurrentItem();
+                 }
+             });
+            btnDarkMode.addEventListener('click', () => { setDarkMode(!document.body.classList.contains('dark-mode')); });
+            btnJump.addEventListener('click', jumpToItem);
+            jumpInput.addEventListener('keypress', (event) => { if (event.key === 'Enter') jumpToItem(); });
+            btnSpeak.addEventListener('click', speakSentence); // 듣기 버튼
+            btnToggleAdd.addEventListener('click', () => showForm(addForm));
+            btnCancelAdd.addEventListener('click', () => { clearAddForm(); showForm(null); });
+            btnSave.addEventListener('click', () => { /* 로컬 개별 저장 로직 (이전과 동일) */
+                const topic = inputTopic.value.trim(); const english = inputEnglish.value.trim(); const korean = inputKorean.value.trim();
+                if (!topic || !english) { alert('주제와 영어 문장은 필수입니다.'); return; }
+                if (isItemDuplicate(english)) { alert(`[${english}]\n이미 등록된 문장입니다.`); return; }
+                items.push({ topic, english, korean }); currentItemIndex = items.length - 1;
+                saveItemsToLocal(); renderCurrentItem(); clearAddForm(); showForm(null);
+            });
+            btnToggleBulkAdd.addEventListener('click', () => showForm(bulkAddForm));
+            btnBulkCancel.addEventListener('click', () => { clearBulkAddForm(); showForm(null); });
+            btnBulkSave.addEventListener('click', () => { /* 로컬 일괄 저장 로직 (이전과 동일) */
+                const rawText = bulkInputText.value.trim(); if (!rawText) { alert('추가할 문장을 입력해주세요.'); return; }
+                const regex = /^(\S+)\s+(.+?)(?:\s*\|\s*(.+))?$/gm;
+                const newItems = []; let parseErrors = 0; const lines = rawText.split('\n');
+                for (const line of lines) {
+                    if (line.trim() === '') continue;
+                    regex.lastIndex = 0; match = regex.exec(line.trim());
+                    if (match) newItems.push({ topic: match[1].trim(), english: match[2].trim(), korean: match[3] ? match[3].trim() : "" });
+                    else { console.warn('형식 오류:', line); parseErrors++; }
+                }
+                if (newItems.length === 0 && parseErrors > 0) { alert('형식에 맞는 문장을 찾지 못했습니다.'); return; }
+                let addedCount = 0; let skippedCount = 0;
+                if (checkOverwrite.checked) {
+                    const uniqueItems = []; const seen = new Set();
+                    for (const item of newItems) {
+                        const key = item.english.trim().toLowerCase();
+                        if (!seen.has(key)) { uniqueItems.push(item); seen.add(key); addedCount++; } else skippedCount++;
+                    }
+                    items = uniqueItems; currentItemIndex = 0;
+                } else {
+                    const itemsToAdd = [];
+                    for (const item of newItems) {
+                        if (isItemDuplicate(item.english) || itemsToAdd.some(b => b.english.trim().toLowerCase() === item.english.trim().toLowerCase())) skippedCount++;
+                        else { itemsToAdd.push(item); addedCount++; }
+                    }
+                    items = items.concat(itemsToAdd);
+                }
+                saveItemsToLocal(); renderCurrentItem();
+                let msg = `총 ${addedCount}개의 문장을 (로컬에) 저장했습니다.`;
+                if (skippedCount > 0) msg += `\n(${skippedCount}개 중복 건너뜀)`;
+                if (parseErrors > 0) msg += `\n(${parseErrors}개 형식 오류 건너뜀)`;
+                alert(msg); clearBulkAddForm(); showForm(null);
+            });
+
+            // --- 7. 앱 초기화 ---
+            function initialize() {
+                setDarkMode(localStorage.getItem('darkMode') === 'enabled');
+                const savedUrl = localStorage.getItem('gdriveAppScriptUrl');
+                if (savedUrl) gdriveUrlInput.value = savedUrl;
+                loadItemsFromLocal();
+                renderCurrentItem();
+                loadVoices(); // 초기 목소리 로딩 시도
+            }
+            initialize();
+        });
+        // --- [앱 로직 끝] ---
+    </script>
+
+    <!-- PWA 서비스 워커 등록 스크립트 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js').then(registration => {
+              console.log('SW registered: ', registration);
+            }).catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+          });
+        }
+    </script>
+
+</body>
+</html>
